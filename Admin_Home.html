@@ -1,0 +1,356 @@
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- main css -->
+    <link rel="stylesheet" href="./styles/css/Home.css">
+    <link rel="stylesheet" href="./styles/css/Edit.css">
+    <link rel="stylesheet" href="./styles/css/Admin_Home.css">
+    <title>Admin_Home</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row d-flex flex-wrap p-4 p-lg-4">
+
+            <!-- user image for mobile -->
+            <div class="col-12 col-lg-4 mx-auto d-lg-none fixed-top pb-lg-2 rounded" style="z-index: 1 !important;">
+                <div class="bg-white mr-2 ml-2 div_styles rounded">
+                    <div class="row no-gutters  p-2 mt-4">
+                        <div class="col-4 user_image_div text-center  d-flex justify-content-center align-items-start">
+                            <a href="#" class="text-decoration-none">
+                                <p class="Edit_txt mt-2 text-nowrap " style="margin-bottom: 50px !important;"> ویرایش
+                                    اطلاعات
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-4  d-flex flex-column justify-content-center align-items-center">
+                            <img src="./image/bill.jpg" alt="user_img1" class="user-img1 rounded-circle mt-3">
+                            <h5 class="UserName_txt  text-nowrap">
+                                امیر حسین میرزایی
+                            </h5>
+                            <p class="PhoneUnderName text-nowrap mt-0"> +98 09123456789</p>
+                        </div>
+                        <div class="col-4 user_image_div text-center pl-2 d-flex justify-content-end align-items-start">
+                            <a href="#" class="text-decoration-none">
+                                <p class="Edit_txt mt-2 text-nowrap " style="margin-bottom: 50px !important;"> تغیر رمز
+                                    عبور
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end user image -->
+
+
+                </div>
+            </div>
+            <!-- end user image -->
+
+            <!-- user image for desktop -->
+            <div class="col-12 col-lg-4 pr-0 pl-0  mt-3 user_image_edit_div d-none d-lg-block bg-white rounded"
+                style="z-index: 1 !important;">
+                <!-- user image -->
+                <div class="row no-gutters  mt-4 pb-lg-0 p-0  ">
+                    <div class="col-4 user_image_div text-center  d-flex justify-content-center align-items-start">
+                        <a href="#" class="text-decoration-none">
+                            <p class="Edit_txt text-nowrap "> ویرایش اطلاعات</p>
+                        </a>
+                    </div>
+                    <div class="col-4 d-flex flex-column justify-content-center align-items-center">
+                        <img src="./image/bill.jpg" alt="user_img" class="user-img rounded-circle"
+                            style="margin-top: 70px;">
+                        <h5 class="UserName_txt text-nowrap">
+                            امیر حسین میرزایی
+                        </h5>
+                        <p class="PhoneUnderName text-nowrap mt-2"> +98 09123456789</p>
+                    </div>
+                    <div class="col-4 user_image_div text-center pl-4 d-flex justify-content-end align-items-start">
+                        <a href="#" class="text-decoration-none">
+                            <p class="Edit_txt text-nowrap " style="margin-bottom: 50px !important;"> تغیر رمز عبور</p>
+                        </a>
+                    </div>
+
+                </div>
+                <!-- end user image -->
+                <div
+                    class="div_icon_exit w-100 order-lg-1 p-0 bg-white rounded d-flex align-items-center flex-column justify-content-center">
+                    <a href="#" class="text-decoration-none">
+                        <div class="d-flex flex-column">
+                            <img src="./image/turn-off.png" class="icon" alt="icon">
+                            <h5 class="username mt-lg-4 d-inline mx-auto text-right text-justify text-nowrap">
+                                خروج
+                            </h5>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+            <!-- end user image -->
+
+            <!-- content for desktop-->
+            <div class="col-12 col-lg-8 rounded d-none mt-3 d-lg-block">
+                <div class="row d-flex justify-content-start pr-4  d-none">
+                    <div class="col-4 rounded d-flex align-items-center flex-column justify-content-center">
+                        <div
+                            class="bg-white w-100 div_icon rounded d-flex align-items-center flex-column justify-content-center">
+                            <a href="#" class="text-decoration-none">
+                                <div class="d-flex flex-column">
+                                    <img src="./image/barcode.png" class="icon" alt="icon">
+                                    <h5 class="username mt-lg-4 d-inline mx-auto text-right text-justify text-nowrap">
+                                        محصولات
+                                    </h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-4 rounded d-flex align-items-center flex-column justify-content-center">
+                        <div class="bg-white div_icon w-100 rounded d-flex align-items-center justify-content-center">
+                            <a href="#" class="text-decoration-none">
+                                <div class="d-flex flex-column">
+                                    <img src="./image/picture.png" class="icon" alt="icon">
+                                    <h5 class="username mt-lg-4 d-inline mx-auto text-right text-justify text-nowrap">
+                                        پوستر
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-4 rounded d-flex align-items-center flex-column justify-content-center">
+                        <div class="div_icon bg-white w-100 rounded  d-flex align-items-center justify-content-center">
+                            <a href="#" class="text-decoration-none">
+                                <div class="d-flex flex-column">
+                                    <img src="./image/video-camera.png" class="icon" alt="icon">
+                                    <h5 class="username d-inline mt-lg-4 mx-auto text-right text-justify text-nowrap">
+                                        فیلم آموزشی
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-4 rounded mt-4 d-flex align-items-center flex-column justify-content-center">
+                        <div class="div_icon bg-white w-100 rounded  d-flex align-items-center justify-content-center">
+                            <a href="#" class="text-decoration-none">
+                                <div class="d-flex flex-column">
+                                    <img src="./image/bars.png" class="icon" alt="icon">
+                                    <h5 class="username d-inline mt-lg-4 mx-auto text-right text-justify text-nowrap">
+                                        مانیتورینگ
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-4 rounded mt-4 d-flex align-items-center flex-column justify-content-center">
+                        <div class="div_icon bg-white w-100 rounded  d-flex align-items-center justify-content-center">
+                            <a href="#" class="text-decoration-none">
+                                <div class="d-flex flex-column">
+                                    <img src="./image/operator.png" class="icon" alt="icon">
+                                    <h5 class="username d-inline mt-lg-4 mx-auto text-right text-justify text-nowrap">
+                                        اپراتور
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-4 rounded mt-4 d-flex align-items-center flex-column justify-content-center">
+                        <div class="div_icon bg-white w-100 rounded  d-flex align-items-center justify-content-center">
+                            <a href="#" class="text-decoration-none">
+                                <div class="d-flex flex-column">
+                                    <img src="./image/seller.png" class="icon" alt="icon">
+                                    <h5 class="username d-inline mt-lg-4 mx-auto text-right text-justify text-nowrap">
+                                        فروشنده
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-4 rounded mt-4 d-flex align-items-center flex-column justify-content-center">
+                        <div class="div_icon bg-white w-100 rounded  d-flex align-items-center justify-content-center">
+                            <a href="#" class="text-decoration-none">
+                                <div class="d-flex flex-column">
+                                    <img src="./image/contract.png" class="icon" alt="icon">
+                                    <h5 class="username d-inline mt-lg-4 mx-auto text-right text-justify text-nowrap">
+                                        پیش فاکتور
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-4 rounded mt-4 d-flex align-items-center flex-column justify-content-center">
+                        <div class="div_icon bg-white w-100 rounded  d-flex align-items-center justify-content-center">
+                            <a href="#" class="text-decoration-none">
+                                <div class="d-flex flex-column">
+                                    <img src="./image/file.png" class="icon" alt="icon">
+                                    <h5 class="username d-inline mt-lg-4 mx-auto text-right text-justify text-nowrap">
+                                        فاکتور
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-4 rounded mt-4 d-flex align-items-center flex-column justify-content-center">
+                        <div class="div_icon bg-white w-100 rounded  d-flex align-items-center justify-content-center">
+                            <a href="#" class="text-decoration-none">
+                                <div class="d-flex flex-column">
+                                    <img src="./image/chat.png" class="icon" alt="icon">
+                                    <h5 class="username d-inline mt-lg-4 mx-auto text-right text-justify text-nowrap">
+                                        تیکت
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <!-- end content for desktop-->
+
+            <!--  content for mobile -->
+            <div class="col-12 rounded d-none mobile_content d-block d-lg-none ">
+                <div class="row justify-content-between ">
+                    <div
+                        class="col-6 rounded w-100 p-0 pr-2 d-flex align-items-center   flex-column justify-content-center">
+                        <div class="bg-white w-100  div_icon d-flex align-items-center flex-column justify-content-center"
+                            style="height: 120px;">
+                            <a href="#" class="text-decoration-none">
+                                <div class="d-flex flex-column">
+                                    <img src="./image/barcode.png" class="icon mx-auto" alt="icon">
+                                    <h5 class="username mt-lg-4 d-inline mx-auto text-right text-justify text-nowrap">
+                                        محصولات
+                                    </h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div
+                        class="col-6 rounded w-100 p-0 pr-2 d-flex align-items-center   flex-column justify-content-center">
+                        <div class="bg-white w-100 pr-3 div_icon d-flex align-items-center  flex-column justify-content-center"
+                            style="height: 120px;">
+                            <a href="#" class="text-decoration-none">
+                                <div class="d-flex flex-column">
+                                    <img src="./image/picture.png" class="mx-auto icon" alt="icon">
+                                    <h5 class="username mt-lg-4 d-inline mx-auto text-right text-justify text-nowrap">
+                                        پوستر
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-between mt-3 ">
+                    <div
+                        class="col-6 rounded w-100 p-0 pr-2 d-flex align-items-center   flex-column justify-content-center">
+                        <div class="bg-white w-100  div_icon d-flex align-items-center flex-column justify-content-center"
+                            style="height: 120px;">
+                            <a href="#" class="text-decoration-none">
+                                <div class="d-flex flex-column">
+                                    <img src="./image/video-camera.png" class="icon mx-auto" alt="icon">
+                                    <h5 class="username d-inline mt-lg-4 mx-auto text-right text-justify text-nowrap">
+                                        فیلم آموزشی
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div
+                        class="col-6 rounded w-100 p-0 pr-2 d-flex align-items-center   flex-column justify-content-center">
+                        <div class="bg-white w-100 pr-3 div_icon d-flex align-items-center  flex-column justify-content-center"
+                            style="height: 120px;">
+                            <a href="#" class="text-decoration-none">
+                                <div class="d-flex flex-column">
+                                    <img src="./image/bars.png" class="mx-auto icon" alt="icon">
+                                    <h5 class="username d-inline mt-lg-4 mx-auto text-right text-justify text-nowrap">
+                                        مانیتورینگ
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row justify-content-between mt-3 ">
+                    <div class="col-6 rounded p-0 d-flex pl-2 align-items-center flex-column justify-content-center">
+                        <div class="bg-white w-100  div_icon d-flex align-items-center flex-column justify-content-center"
+                            style="height: 120px;">
+                            <a href="#" class="text-decoration-none">
+                                <div class="d-flex flex-column">
+                                    <img src="./image/operator.png" class="mx-auto icon" alt="icon">
+                                    <h5 class="username d-inline mt-lg-4 mx-auto text-right text-justify text-nowrap">
+                                        اپراتور
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div
+                        class="col-6 rounded w-100 p-0 pr-2 d-flex align-items-center  flex-column justify-content-center">
+                        <div class="bg-white w-100 pr-3 div_icon d-flex align-items-center  flex-column justify-content-center"
+                            style="height: 120px;">
+                            <a href="#" class="text-decoration-none">
+                                <div class="d-flex flex-column">
+                                    <img src="./image/seller.png" class="mx-auto icon" alt="icon">
+                                    <h5 class="username d-inline mt-lg-4 mx-auto text-right text-justify text-nowrap">
+                                        فروشنده
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-between mt-3 ">
+                    <div class="col-6 rounded p-0 d-flex pl-2 align-items-center flex-column justify-content-center">
+                        <div class="bg-white w-100  div_icon d-flex align-items-center flex-column justify-content-center"
+                            style="height: 120px;">
+                            <a href="#" class="text-decoration-none">
+                                <div class="d-flex flex-column">
+                                    <img src="./image/contract.png" class="mx-auto icon" alt="icon">
+                                    <h5 class="username d-inline mt-lg-4 mx-auto text-right text-justify text-nowrap">
+                                        پیش فاکتور
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div
+                        class="col-6 rounded w-100 p-0 pr-2 d-flex align-items-center  flex-column justify-content-center">
+                        <div class="bg-white w-100 pr-3 div_icon d-flex align-items-center  flex-column justify-content-center"
+                            style="height: 120px;">
+                            <a href="#" class="text-decoration-none">
+                                <div class="d-flex flex-column">
+                                    <img src="./image/file.png" class="mx-auto icon" alt="icon">
+                                    <h5 class="username d-inline mt-lg-4 mx-auto text-right text-justify text-nowrap">
+                                        فاکتور
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-between mt-3 ">
+                    <div class="col-6 rounded p-0 d-flex pl-2 align-items-center flex-column justify-content-center">
+                        <div class="bg-white w-100  div_icon d-flex align-items-center flex-column justify-content-center"
+                            style="height: 120px;">
+                            <a href="#" class="text-decoration-none">
+                                <div class="d-flex flex-column">
+                                    <img src="./image/chat.png" class="mx-auto icon" alt="icon">
+                                    <h5 class="username d-inline mt-lg-4 mx-auto text-right text-justify text-nowrap">
+                                        تیکت
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div
+                        class="col-6 invisible rounded w-100 p-0 pr-2 d-flex align-items-center  flex-column justify-content-center">
+                        <div class="bg-white w-100 pr-3 div_icon d-flex align-items-center  flex-column justify-content-center"
+                            style="height: 120px;">
+                            <a href="#" class="text-decoration-none">
+                                <div class="d-flex flex-column">
+                                    <img src="./image/file.png" class="mx-auto icon" alt="icon">
+                                    <h5 class="username d-inline mt-lg-4 mx-auto text-right text-justify text-nowrap">
+                                        فاکتور
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- end content for mobile -->
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

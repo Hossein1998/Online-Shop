@@ -1,0 +1,51 @@
+@import "./../_base.scss";
+.user_image_edit_div {
+  box-shadow: 1px 1px 1px 1px $border;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  @media (min-width: 992px) {
+    height: 463px !important;
+  }
+  @media (max-width: 991px) {
+    margin-top: 305px !important;
+  }
+  @media (max-width: 400px) {
+    margin-top: 260px !important;
+  }
+}
+.username {
+  color: #616161;
+  margin-top: 10px;
+  @media (min-width: 300px) and (max-width: 400px) {
+    font-size: 16px;
+  }
+  @media (min-width: 401px) and (max-width: 767px) {
+    font-size: 17px;
+  }
+  @media (min-width: 768px) and (max-width: 1199px) {
+    font-size: 18px;
+  }
+  @media (min-width: 1025px) {
+    font-size: 21px;
+  }
+  @media (min-width: 992px) {
+    margin-top: 35px;
+  }
+}
+.div_icon_exit {
+  display: none !important;
+  @media (min-width: 992px) {
+    display: flex !important;
+    height: 220px !important;
+    margin-top: 50px;
+  }
+  box-shadow: 1px 1px 1px 1px $border;
+}
+.mobile_content {
+  @media (max-width: 991px) {
+    margin-top: 295px !important;
+  }
+  @media (max-width: 400px) {
+    margin-top: 250px !important;
+  }
+}

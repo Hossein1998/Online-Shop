@@ -1,0 +1,78 @@
+@import "./../base";
+.pishfactor_header {
+  background-color: $pishfactor_color;
+  color: white;
+}
+.pishfactor_txt {
+  margin: auto;
+  line-height: 51px;
+  vertical-align: middle;
+  font-size: 17px;
+  @media (min-width: 991px) {
+    font-size: 22px;
+  }
+}
+.table_desktop_header {
+  margin: auto;
+  line-height: 51px;
+  vertical-align: middle;
+  font-size: 17px;
+  color: #616161;
+  @media (min-width: 992px) and (max-width: 1070px) {
+    font-size: 14px;
+  }
+}
+.table_desktop_content {
+  margin: auto;
+  line-height: 51px;
+  vertical-align: middle;
+  font-size: 18px;
+  color: #bdbdbd;
+}
+
+.table_mobile_header {
+  margin: auto;
+  line-height: 51px;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #616161;
+
+  @media (max-width: 400px) {
+    font-size: 12px;
+  }
+}
+.table_mobile_content {
+  margin: auto;
+  line-height: 51px;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #bdbdbd;
+
+  @media (max-width: 400px) {
+    font-size: 12px;
+  }
+}
+.center {
+  margin: auto;
+  line-height: 51px;
+  vertical-align: middle;
+  font-size: 18px;
+}
+.adress_row {
+  padding: 14px;
+  @media (min-width: 300px) and (max-width: 400px) {
+    padding: 19px;
+  }
+  .adress_txt {
+    margin: auto;
+
+    vertical-align: middle;
+  }
+}
+
+.row_tableformobile {
+  @media (min-width: 300px) and (max-width: 330px) {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}

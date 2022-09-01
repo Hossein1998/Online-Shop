@@ -1,0 +1,40 @@
+@import "./../_base.scss";
+@import "../inputs";
+
+.font-article-footer-t{
+  font-size: 12;
+
+  @media (max-width: 992px) {
+    font-size: 17px;
+  }
+  @media (max-width: 600px) {
+    font-size: 13;
+  }
+  @media (max-width: 400px) {
+    font-size: 10;
+  }
+}
+
+.font-list{
+    font-size: 16;
+
+    @media (max-width: 1234px) {
+      font-size: 14px;
+    }
+    @media (max-width: 992px) {
+      font-size: 11px;
+    }
+    @media (max-width: 600px) {
+      font-size: 10;
+    }
+    @media (max-width: 400px) {
+        font-size: 8;
+      }
+}
+.main-mobail-pt{
+    @media (min-width:767px) {
+      padding-top: 55px;
+    }
+    padding-top: 360px;
+  
+  }

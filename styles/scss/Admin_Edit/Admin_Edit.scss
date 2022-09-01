@@ -1,0 +1,23 @@
+@import "./../base";
+.preview {
+  width: 140px;
+  height: 140px;
+//   max-width: 150px;
+  border-radius: 50%;
+  border: none;
+  background-color: #f6f5f5;
+  cursor: pointer;
+  @media (min-width: 300px) and (max-width: 400px) {
+    width: 120px;
+    height: 120px;
+  }
+  @media (min-width: 1025px) {
+    width: 170px;
+    height: 170px;
+  }
+}
+
+#upload {
+  display: none;
+  top: 1%;
+}

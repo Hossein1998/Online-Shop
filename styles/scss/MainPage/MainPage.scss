@@ -1,0 +1,226 @@
+@import "./../base";
+@import "./../inputs";
+.Search_Icon {
+  width: 24px;
+  height: 24px;
+  margin-top: 5px;
+  @media (max-width: 390px) {
+    width: 22px;
+    height: 22px;
+    margin-top: 15px;
+  }
+}
+
+.input-group {
+  border: none !important;
+  background-color: #e0e0e0;
+  box-shadow: 1px 1px 1px 1px $border;
+  border-radius: 10px;
+}
+input {
+  border: none !important;
+  background-color: #e0e0e0;
+  width: 80% !important;
+}
+.logo_img {
+  width: 75px;
+  height: 75px;
+}
+.basket_icon {
+  width: 1.7rem;
+  height: 1.7rem;
+}
+.logo_txt {
+  color: #4b154b;
+  font-size: 14px;
+  line-height: 33px;
+}
+.User_Enter_bottom {
+  background-color: #4b154b;
+  font-size: 0.9rem;
+  padding: 0px;
+  height: 40px;
+  @media (min-width: 992px) and (max-width: 1199px) {
+    font-size: 0.8rem;
+  }
+  @media (max-width: 400px) {
+    font-size: 0.8rem;
+  }
+}
+.seller_Enter_bottom {
+  background-color: #188266;
+  font-size: 0.9rem;
+  padding: 0px;
+  height: 40px;
+  @media (min-width: 992px) and (max-width: 1199px) {
+    font-size: 0.8rem;
+  }
+  @media (max-width: 400px) {
+    font-size: 0.8rem;
+  }
+}
+.title_txt {
+  font-size: 16px;
+  cursor: pointer;
+}
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 6px;
+  border-color: #bebebebe;
+  margin-top: 15px;
+}
+
+// slider
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-button {
+  &-next,
+  &-prev {
+    color: #fff;
+  }
+}
+.row_slider {
+  @media (min-width: 992px) {
+    height: 90vh;
+  }
+}
+.swiper-slide {
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-progress-bar {
+  position: relative;
+  width: 100%;
+  display: block;
+  z-index: 1;
+  height: 2px;
+  .slide_progress-bar {
+    position: absolute;
+    height: 2px;
+    background: #fff;
+    width: auto;
+    clear: both;
+    opacity: 0;
+    bottom: 45px;
+    left: 0;
+    right: 0;
+    &:after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: #000;
+      height: 100%;
+      width: 0;
+      content: "";
+    }
+  }
+  &.active {
+    .slide_progress-bar {
+      opacity: 1;
+    }
+  }
+  &.animate {
+    .slide_progress-bar {
+      &:after {
+        transition: width linear;
+        transition-delay: unset;
+        width: 100%;
+        transition-duration: 5s;
+      }
+    }
+  }
+}
+// end slider
+
+.product_div {
+  background-image: url("./../../../image/iphone.jpg") !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  height: 250px;
+  width: 100%;
+}
+
+.circle {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  background: #f64240;
+  padding: 10px !important;
+}
+.circle2 {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  border: 1px #b0b0b0b0 solid;
+  padding: 17px !important;
+}
+.circle3 {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  background: #f64240;
+}
+
+.basket_icon2 {
+  width: 31px !important;
+  height: 31px !important;
+  cursor: pointer;
+  float: right;
+  position: absolute;
+}
+.heart_icon {
+  width: 26px !important;
+  height: 30px !important;
+  cursor: pointer;
+  float: right;
+  position: absolute;
+}
+
+.discount_row {
+  min-height: 40%;
+  overflow: hidden;
+}
+.discount_div {
+  // background-image: url("./../../image/Home.png") !important;
+  // background-size: 100% 100%;
+  // background-repeat: no-repeat;
+  // background-position: center;
+  // background-origin: border-box;
+  height: 100vh;
+  background-color: #ff6766;
+  border-radius: 5px;
+}
+
+.discount_image {
+  height: 49%;
+  width: 100%;
+  border-radius: 5px;
+}

@@ -1,0 +1,331 @@
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- bootstrap-drawer -->
+    <link rel="stylesheet" href="dist/css/bootstrap-drawer.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="./styles/css/Admin_Seller2.css">
+    <link rel="stylesheet" href="./styles/css/shopping_cart_information_user.css">
+
+    <title>Shopping_cart_Information_User</title>
+
+</head>
+
+<body>
+    <header>
+        <!-- top menu large -->
+        <nav style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+            class="navbar navbar-light bg-white fixed-top navbar-expand-md">
+            <div class="w-100 ml-lg-3 mr-lg-3 d-flex flex-row">
+                <!-- drawer icon -->
+                <span class="m-2 display_none">
+                    <img class="float-right nav-sm-icon pt-1" src="./image/menu.png" alt="icon" data-toggle="drawer"
+                        data-target="#drawer-1" style="width: 30px; height: 30px;">
+                </span>
+                <!-- end drawer icon -->
+                <!-- main menu -->
+                <div id="myTopnav" class="navbar-collapse saeed collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- search icon -->
+                        <a href="#" class="nav-link"><img width="25" src="image/search.png" alt=""></a>
+                        <!-- end search icon -->
+                        <li class="">
+                            <a href="#" class="nav-link font-navbar text-dark ml-1  ml-xl-3 mr-xl-3">کالای دیجیتال</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="nav-link font-navbar text-dark ml-1 ml-xl-3 mr-xl-3">آرایشی و
+                                بهداشتی</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="nav-link font-navbar text-dark ml-1 ml-xl-3 mr-xl-3">پوشاک</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="nav-link font-navbar text-dark ml-1 ml-xl-3 mr-xl-3">خانه و
+                                آشپزخانه</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="nav-link font-navbar text-dark ml-1 ml-xl-3 mr-xl-3">کتاب و لوازم
+                                تحریر</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- end main menu -->
+
+                <!-- logo -->
+                <div class="mt-0 border bg-white logo pt-2 pb-2 pr-2 pl-1 ml-5 ml-lg-0  " id="logo">
+                    <img class=" w-100" src="./image/ASmarket2.png" alt="">
+                </div>
+                <!-- end logo -->
+                <!-- icons -->
+                <ul class="d-flex flex-row justify-content-end align-items-center nav navbar-nav mr-auto"
+                    id="nav-img-bar">
+                    <a href="#" class="nav-link p-2 ml-lg-3"><img src="image/shopping-bag-of-normal-design-outline.png"
+                            width="27" alt="logo"></a>
+                    <li>
+                        <a href="#" class="nav-link p-2 ml-lg-3"><img src="image/user 12.png" width="24" alt=""></i></a>
+                    <li>
+                        <a href="#" class="nav-link p-2 ml-lg-3"><img src="image/seller (1).png" width="24"
+                                alt=""></i></a>
+                    </li>
+                </ul>
+                <!-- end icons -->
+
+                <!-- end top menu large -->
+            </div>
+        </nav>
+        <!-- large aside bar -->
+
+        <!-- information admin -->
+        <div class="bg-white row no-gutters p-2 mr-4 mt-5 pb-lg-2 d-none d-md-flex d-lg-flex d-xl-flex justify-content-center "
+            id="image" style="height: 280px;">
+            <img src="./image/bill.jpg" class="user-img rounded-circle" id="image2">
+            <h5 class="UserName_txt text-nowrap">
+                امیر حسین میرزایی
+            </h5>
+            <div class="d-flex justify-content-center w-100">
+
+                <p class="PhoneUnderName text-nowrap mt-2 " style="font-size: 14px;"> +98 09123456789</p>
+
+            </div>
+        </div>
+        <!-- end information admin -->
+        <!-- main asaid bar -->
+        <div class="bg-white row no-gutters p-2 mr-4 mt-5 pb-lg-2 d-none d-md-flex d-lg-flex d-xl-flex" id="money"
+            style="height: 250px;">
+            <ul>
+                <li class="fasele">
+                    <a href="#" class="d-flex align-items-center p-1">
+                        <img id="icon" class="pb-0 mb-4" src="./image/shopping-bag-of-normal-design-outline.png"
+                            alt="wallet">
+                        <p class="pb-1 pr-3 text-info text-nowrap">سبد خرید</p>
+                    </a>
+                </li>
+                <li class="fasele">
+                    <a href="#" class="d-flex align-items-center p-1">
+                        <img id="icon" src="./image/to-do-list.png" alt="wallet">
+                        <p class="pb-1 pr-3">سفارشات</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="d-flex align-items-center p-1">
+                        <img id="icon" class="pb-0 mb-4" src="./image/user 12.png" alt="wallet">
+                        <p class="pb-2 pr-3">اطلاعات حساب</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="d-flex align-items-center p-1">
+                        <img id="icon" src="./image/logout.png" alt="wallet">
+                        <p class="pb-3 pr-3">خروج از حساب</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- end main asaid bar -->
+
+        <!-- end large aside bar -->
+
+        <!-- mobail aside bar -->
+
+        <!-- main mobail aside bar  -->
+        <div class="bg-white row no-gutters p-2 mr-4 mt-5 pb-lg-2 d-xs-flex d-sm-flex d-md-none d-lg-none d-xl-none h-0 justify-content-center"
+            style="height: 280px !important;width: 80px !important; border-radius: 10px;border: 1px solid #eeeeee;"
+            id="money_mobile">
+            <ul style="height: 20px !important;">
+                <li class=" pt-1 pb-4 fasele">
+                    <a href="#">
+                        <img id="icon_mobile" src="./image/shopping-bag-of-normal-design-outline.png" alt="wallet">
+                    </a>
+                </li>
+
+                <li class=" pt-1 pb-4 fasele">
+                    <a href="#">
+                        <img id="icon_mobile" src="./image/to-do-list.png" alt="wallet">
+                    </a>
+                </li>
+                <li class="pt-1 pb-4 ">
+                    <a href="#">
+                        <img id="icon_mobile" src="./image/user 12.png" alt="wallet">
+                    </a>
+                </li>
+                <li class="pt-1 pb-4 ">
+                    <a href="#">
+                        <img id="icon_mobile" src="./image/logout.png" alt="wallet">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- main mobail aside bar  -->
+
+        <!-- mobail information admin -->
+        <div class="bg-white row no-gutters p-2 mr-2 mt-5 pb-lg-2 d-xs-flex d-sm-flex d-md-none d-lg-none d-xl-none"
+            style="border: 1px solid #eeeeee;" id="image_mobile">
+            <div class="w-100 d-flex jastify-content-center">
+                <img src="./image/bill.jpg" class="user-img rounded-circle mt-4 mt-sm-3" id="image2">
+            </div>
+
+            <h5 class="UserName_txt text-nowrap">
+                امیر حسین میرزایی
+            </h5>
+            <div class="d-flex justify-content-between w-100">
+
+                <p class="PhoneUnderName text-nowrap mt-2 " style="font-size: 15px;"> +98 09123456789</p>
+
+            </div>
+        </div>
+        <!-- end mobail information admin -->
+
+        <!-- end mobail aside bar -->
+    </header>
+
+
+
+
+    <main class="main-mobail-pt" style="margin-bottom: 80px;">
+        <section class="width-fixed d-flex w-100 pr-4 p-f">
+            <div class="row bg-white w-100 "
+                style=" border-radius: 4px; border: 1px solid #eeeeee !important;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.055), 0 6px 20px 0 rgba(0, 0, 0, 0.1);">
+                <div class="col-12 mr-1 mb-4 row mt-3">
+                    <div class="col-12 col-xl-6 pl-0 pr-0 w-100 ">
+                        <!-- address check -->
+                        <div
+                            class="col-6 d-flex  w-100 align-items-center justify-content-center mr-xl-5 p-f-l align-middle hhfhfhfhffh">
+                            <label class="container  text-nowrap w-100 text-center pr-0 ml-3">آدرس قبلی &nbsp;
+                                <input type="radio" checked="checked" name="radio" class=""
+                                    style="width: 7px !important;">
+                                <span class="checkmark mt-lg-1 positon-fixed"></span>
+                            </label>
+
+                            &nbsp;&nbsp;
+
+                            <label class="container  text-nowrap w-100 text-center pr-0">آدرس جدید &nbsp;
+                                <input type="radio" checked="checked" name="radio" class=""
+                                    style="width: 10px !important;">
+                                <span class="checkmark mt-lg-1 positon-fixed"></span>
+                            </label>
+                        </div>
+                        <!-- end address check -->
+
+
+                    </div>
+                    <!-- postaly code -->
+                    <div class="col-12 col-xl-6 mt-3">
+                        <label class="font-list w-100 text-right">کد پستی</label>
+                        <input type="text" class="form-control font-list w-100"
+                            style="height: 55px; border-radius: 4px; border: 2px solid #d4d4d4 !important;"
+                            placeholder="کد پستی خود را وارد نمایید">
+                    </div>
+                    <!-- postaly code -->
+
+                    <!-- postal addres -->
+                    <div class="col-12 mt-4">
+                        <label class="font-list w-100 text-right">آدرس پستی</label>
+                        <textarea class="font-list form-control font-list w-100 text-right pt-3 pr-4"
+                            style="height: 345px; border-radius: 4px; border: 2px solid #d4d4d4 !important;"
+                            placeholder="آدرس پستی خود را وارد نمایید"></textarea>
+                    </div>
+                    <!-- end postaly addres -->
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <div class="fixed-bottom col-12 col-lg-5 row justify-content-center w-100 fiexd-f bg-white p-2"
+        style="border-radius: 10px;border: 2px solid #eeeeee; ">
+        <div class="col-6 d-flex">
+            <button class="btn w-100 ml-2 text-white pt-2 commodity-download"
+                style="background-color: hsl(155.4, 62.6%, 36.7%); height: 50px;">پرداخت</button>
+            <button class="btn w-100 mr-2 text-white pt-2 commodity-download"
+                style="background-color: rgb(95, 95, 95);">بازگشت</button>
+        </div>
+        <div
+            class="col-6 justify-content-center w-100 text-center commodity-download align-items-center mt-3 mt-lg-3 text-nowrap">
+            <span>قیمت کل : </span>
+            <span>۴۰۰۰۰</span>
+            <span>تومن</span>
+        </div>
+    </div>
+
+    <!-- Drawer -->
+    <div class="drawer drawer-right slide" tabindex="-1" role="dialog" aria-labelledby="drawer-1-title"
+        aria-hidden="true" id="drawer-1" style="border: none !important; width:260px;">
+        <div class="drawer-content drawer-content-scrollable" role="document" style="border: none !important;">
+            <div class="drawer-body text-center mt-2 m-0 p-0">
+                <ul class="nav navbar-nav">
+                    <a href="#" class="nav-link mb-4 mt-4"><img width="25" src="image/search.png" alt=""></a>
+                    <li class="">
+                        <a href="#" class="nav-link font-navbar text-dark  m-2">کالای دیجیتال</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="nav-link font-navbar text-dark m-2">آرایشی و بهداشتی</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav-link font-navbar text-dark m-2">پوشاک</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav-link font-navbar text-dark m-2">خانه و
+                            آشپزخانه</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav-link font-navbar text-dark m-2">کتاب و لوازم
+                            تحریر</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <!-- end Drawer -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="./dist/js/bootstrap-drawer.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "saeed") {
+                x.className += "responsive";
+                // var element1 = document.getElementById("logo");
+                // element1.classList.add("d-flex");
+            } else {
+                var element1 = document.getElementById("logo");
+                element1.classList.add("d-none");
+                x.className = "saeed";
+            }
+        }
+
+        // drawer
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+        // end drawer
+    </script>
+</body>
+
+</html>

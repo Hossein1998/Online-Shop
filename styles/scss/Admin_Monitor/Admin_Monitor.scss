@@ -1,0 +1,209 @@
+@import "./../base";
+.HeaderOfPage_div {
+  background-color: #194c80;
+  color: white;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.HeaderOfPageOP_div {
+  background-color: #194c80;
+  color: white;
+  cursor: pointer;
+}
+.rating {
+  width: 50px;
+  font-size: 40px;
+  overflow: hidden;
+  height: 40px;
+}
+.rating input {
+  float: right;
+  opacity: 0;
+  position: absolute;
+}
+.rating a,
+.rating label {
+  float: right;
+  color: #aaa;
+  text-decoration: none;
+  -webkit-transition: color 0.4s;
+  -moz-transition: color 0.4s;
+  -o-transition: color 0.4s;
+  transition: color 0.4s;
+}
+.rating label:hover ~ label,
+.rating input:focus ~ label,
+.rating label:hover,
+.rating a:hover,
+.rating a:hover ~ a,
+.rating a:focus,
+.rating a:focus ~ a {
+  color: orange;
+  cursor: pointer;
+}
+.rating2 {
+  direction: rtl;
+}
+.rating2 a {
+  float: none;
+}
+.enterbutton {
+  margin-top: 30px;
+  text-decoration: none;
+  text-align: center;
+  width: 40%;
+  height: 100px;
+  font-size: 23px;
+  height: 58px;
+  color: $white;
+  background-color: #194c80;
+  border: none;
+  align-items: center;
+  border-radius: 5px;
+
+  &.enterbutton:hover,
+  :focus {
+    color: $white;
+    border: none;
+  }
+
+  @media (max-width: 767px) {
+    width: 87%;
+  }
+  @media (min-width: 992px) {
+    margin-top: 72px;
+  }
+}
+
+.HeaderOfPageMO3OP_div {
+  background-color: #194c80;
+  color: white;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.HeaderOfPageMO3_div {
+  background-color: #194c80;
+  color: white;
+  cursor: pointer;
+}
+.HeaderOfPageMO4_div {
+  background-color: #194c80;
+  color: white;
+  cursor: pointer;
+}
+.HeaderOfPageMO4OP_div {
+  background-color: #194c80;
+  color: white;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.preview2 {
+  width: 100%;
+  height: 205px;
+  border: none;
+  cursor: pointer;
+  @media (min-width: 300px) and (max-width: 400px) {
+    height: 190px;
+  }
+  @media (min-width: 992px) {
+    height: 220px;
+  }
+}
+.preview3 {
+  width: 100%;
+  height: 100px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  @media (min-width: 300px) and (max-width: 400px) {
+    height: 100px;
+  }
+  @media (min-width: 992px) {
+    height: 106px;
+  }
+}
+.preview4 {
+  width: 100%;
+  height: 100px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  @media (min-width: 300px) and (max-width: 400px) {
+    height: 85px;
+  }
+  @media (min-width: 992px) {
+    height: 108px;
+  }
+}
+
+#upload1 {
+  display: none;
+  top: 1%;
+}
+#upload2 {
+  display: none;
+  top: 1%;
+}
+#upload3 {
+  display: none;
+  top: 1%;
+}
+.submitbutton2 {
+  margin-top: 30px;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  font-size: 21px;
+  height: 58px;
+  color: $white;
+  background-color: #194c80;
+  border: none;
+  border-radius: 4px;
+  align-items: center;
+  padding: 0px;
+  @media (max-width: 767px) {
+    font-size: 19px;
+  }
+  @media (max-width: 330px) {
+    font-size: 17px;
+  }
+  &.submitbutton2:hover,
+  :focus {
+    color: $white;
+    border: none;
+  }
+
+  @media (max-width: 767px) {
+    width: 87%;
+  }
+  @media (min-width: 992px) {
+    margin-top: 130px;
+  }
+}
+.backbutton {
+  margin-top: 30px;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  font-size: 21px;
+  height: 58px;
+  color: $white;
+  background-color: $inputs;
+  border: none;
+  border-radius: 4px;
+  align-items: center;
+  @media (max-width: 767px) {
+    font-size: 19px;
+  }
+  @media (max-width: 330px) {
+    font-size: 17px;
+  }
+  &.backbutton:hover,
+  :focus {
+    color: $white;
+    border: none;
+  }
+}

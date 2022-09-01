@@ -1,0 +1,37 @@
+@import "./base";
+.table_desktop_header {
+  margin: auto;
+  line-height: 51px;
+  vertical-align: middle;
+  font-size: 18px;
+  color: #616161;
+}
+.table_desktop_content {
+  margin: auto;
+  line-height: 51px;
+  vertical-align: middle;
+  font-size: 18px;
+}
+
+.table_mobile_header {
+  margin: auto;
+  line-height: 51px;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #616161;
+
+  @media (max-width: 400px) {
+    font-size: 13px;
+  }
+}
+.table_mobile_content {
+  margin: auto;
+  line-height: 51px;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #bdbdbd;
+
+  @media (max-width: 400px) {
+    font-size: 13px;
+  }
+}

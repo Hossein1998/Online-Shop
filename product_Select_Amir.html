@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- main css -->
+    <link rel="stylesheet" href="./styles/css/MainPage.css">
+    <link rel="stylesheet" href="./styles/css/Product_Select.css">
+    <title>انتخاب محصول</title>
+</head>
+
+<body>
+   
+
+    <nav class="navbar navbar-light  bg-light">
+        <div class="row w-100 no-gutters justify-content-center">
+
+            <div class="col-10 col-sm-8 col-lg-4 align-items-center justify-content-center d-none d-lg-flex">
+                <div class="d-flex mx-auto">
+                    <img src="./image/ASmarket2.png" class="logo_img" alt="image">
+                    <h5 class="logo_txt text-center align-middle  mr-2">فروشگاه اینترنتی <br>آس مارکت</h5>
+                </div>
+            </div>
+
+            <div class="col-10 col-lg-6 d-flex justify-content-center align-items-center ">
+                <div class="row no-gutters justify-content-end w-100">
+                    <div class="col-4 col-lg-3 d-flex justify-content-center align-items-center">
+                        <a href="#" class="text-decoration-none text-secondary">
+                            <h6 class="text-center  mt-1">سبد خرید</h6>
+                        </a>
+                        <img src="./image/shopping-cart.png" alt="basket_icon" class="basket_icon mr-1 mr-sm-3">
+                    </div>
+                    <div class="col-4 col-lg-3 pl-1 pr-1 d-flex justify-content-center">
+                        <button type="button" class="btn User_Enter_bottom w-100 w-lg-75 text-center text-white ">ورودی
+                            کاربر</button>
+                    </div>
+                    <div class="col-4 col-lg-3 pl-1 pr-1 d-flex justify-content-center">
+                        <button type="button"
+                            class="btn seller_Enter_bottom w-100 w-lg-75 text-center text-white ">ورودی
+                            فروشنده</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-2 col-lg-1 d-flex d-none justify-content-end align-items-center d-lg-flex">
+                <div class="justify-content-end">
+                    <img src="./image/back_icon.png" class="back_icon  w-25 h-25" alt="icon">
+                </div>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- عکس های محصول -->
+    <div class="container-fluid">
+        <div class="row mt-4">
+            <div class="col-6 d-flex justify-content-end">
+                <img src="./image/sea.jpg" class="product_image" alt="icon">
+            </div>
+            <div class="col-6 d-flex justify-content-satart">
+                <img src="./image/sea.jpg" class="product_image" alt="icon">
+            </div>
+        </div>
+    </div>
+    <!-- عکس های محصول -->
+
+    <div class="container-fluid">
+        <main class="d-lg-flex mt-3 h-50 row container-fluid mb-3" style="padding: 0 !important; margin: 0">
+            <div class="col-1 col-md-2 h-100 d-flex justify-content-center align-items-center">
+
+            </div>
+            <div class="col-10 col-md-8 h-100">
+                <div class="row pb-4 pt-4">
+                    <div class="col-6 d-flex">
+                        <h3 class="font-set-commodity-title-menu">نام محصول</h3>
+                    </div>
+                    <div class="col-6">
+                        <div class="w-100 d-flex justify-content-end">
+                            <div class="circle2 d-flex float-right justify-content-center align-items-center p-3 m-2">
+                                <img src="./image/dislike.png" onclick="change_like_img(this)" class="heart_icon"
+                                    alt="like icon">
+                            </div>
+                            <div class="circle2 d-flex float-right justify-content-center align-items-center m-2">
+                                <img class="basket_icon2" src="./image/Cart.png" alt="icon">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 justify-content-between d-flex">
+                        <div class="w-100 text-right mt-2 mb-0 mb-lg-4">
+                            <p style="color: #a2a2a2;" class="font-set-commodity-menu pb-3">
+                                <span>توضیحات پوستر : </span> <span></span>
+                            </p>
+                            <p style="color: #a2a2a2;" class="font-set-commodity-menu pb-3">
+                                <span>قیمت اصلی : </span> <span></span>
+                            </p>
+                            <p style="color: #a2a2a2;" class="font-set-commodity-menu pb-3">
+                                <span>پورسانت محصول : </span> <span></span>
+                            </p>
+                            <p style="color: #a2a2a2;" class="font-set-commodity-menu pb-3">
+                                <span>قیمت نهایی : </span> <span></span>
+                            </p>
+                            <p style="color: #a2a2a2;" class="font-set-commodity-menu pb-3">
+                                <span>ویژگی های محصول : </span> <span></span>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#loginLink').click(function () {
+                $("#mask").fadeIn()
+                $("#mask").click(function () {
+                    $('.popup').fadeOut()
+                    $(this).fadeOut()
+                })
+                // $("#loginPanel").draggable()
+                var w = $('body').width()
+                var h = $('body').height()
+                $("#loginPanel").fadeIn().css({ top: 400 })
+            })
+        })
+
+        // change like img
+        function change_like_img(Src) {
+            var src_value = Src.getAttribute('src')
+
+            if (src_value == "./image/like2.png") {
+
+                src_value = "./image/dislike.png"
+                Src.setAttribute('src', src_value)
+                return "";
+            }
+            else {
+                src_value = "./image/like2.png"
+                Src.setAttribute('src', src_value)
+                return "";
+            }
+
+        }
+        // end change like img
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,186 @@
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- main css -->
+    <link rel="stylesheet" href="./styles/css/Home.css">
+    <link rel="stylesheet" href="./styles/css/Edit.css">
+    <link rel="stylesheet" href="./styles/css/Admin_Edit2.css">
+    <title>Admin_Edit2</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row d-flex flex-wrap p-4 pr-lg-4">
+            <!-- user image for mobile -->
+            <div class="col-12 col-lg-4 mx-auto d-lg-none fixed-top pb-lg-2 rounded" style="z-index: 1 !important;">
+                <div class="bg-white mr-2 ml-2 div_styles rounded">
+                    <div class="row no-gutters  p-2 mt-4">
+                        <div class="col-4 user_image_div text-center  d-flex justify-content-center mt-1">
+                            <a href="#" class="text-decoration-none">
+                                <p class="Edit_txt text-nowrap " style="margin-bottom: 50px !important;"> ویرایش اطلاعات
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-4  d-flex flex-column justify-content-center align-items-center">
+                            <img src="./image/bill.jpg" alt="user_img1" class="user-img1 rounded-circle mt-3">
+                            <h5 class="UserName_txt  text-nowrap">
+                                امیر حسین میرزایی
+                            </h5>
+                            <p class="PhoneUnderName text-nowrap mt-0"> +98 09123456789</p>
+                        </div>
+                        <div class="col-4 user_image_div text-center pl-1 d-flex justify-content-end mt-1">
+                            <a href="#" class="text-decoration-none">
+                                <p class="Edit_txt text-nowrap " style="margin-bottom: 50px !important;"> تغیر رمز عبور
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end user image -->
+
+
+                </div>
+            </div>
+            <!-- end user image -->
+
+            <!-- user image for desktop -->
+            <div class="col-12 col-lg-4 pr-0 pl-0  user_image_edit_div d-none d-lg-block offset-1 bg-white rounded"
+                style="z-index: 1 !important;">
+                <!-- user image -->
+                <div class="row no-gutters p-2 mt-4 pb-lg-2  ">
+                    <div class="col-4 user_image_div text-center  d-flex justify-content-center align-items-start">
+                        <a href="#" class="text-decoration-none">
+                            <p class="Edit_txt text-nowrap "> ویرایش اطلاعات</p>
+                        </a>
+                    </div>
+                    <div class="col-4 d-flex flex-column justify-content-center align-items-center">
+                        <img src="./image/bill.jpg" alt="user_img" class="user-img rounded-circle"
+                            style="margin-top: 70px;">
+                        <h5 class="UserName_txt text-nowrap">
+                            امیر حسین میرزایی
+                        </h5>
+                        <p class="PhoneUnderName text-nowrap mt-2"> +98 09123456789</p>
+                    </div>
+                    <div class="col-4 user_image_div text-center pl-4 d-flex justify-content-end align-items-start">
+                        <a href="#" class="text-decoration-none">
+                            <p class="Edit_txt text-nowrap " style="margin-bottom: 50px !important;"> تغیر رمز عبور</p>
+                        </a>
+                    </div>
+
+                </div>
+                <!-- end user image -->
+
+                <!-- code -->
+                <div class="row d-flex pr-3 pl-3 pb-lg-2 invisible">
+                    <div class="col-6 d-flex justify-content-start">
+                        <div class="d-flex">
+                            <p class="code text-nowrap" style="direction: rtl;">
+                                کد پرسنلی :
+                            </p>
+                            <p class="code text-nowrap" class="mr-1">
+                                11
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-6 d-flex justify-content-end">
+                        <p class="code text-nowrap"> +98 09123456789</p>
+                    </div>
+                </div>
+                <!-- end code -->
+
+                <div class="d-flex  justify-content-between" style="margin-top: 35px;">
+                    <div
+                        class="div_icon_exit w-50 order-lg-1 p-3 bg-white rounded d-flex align-items-center flex-column justify-content-center">
+                        <a href="#" class="text-decoration-none">
+                            <div class="d-flex flex-column">
+                                <img src="./image/turn-off.png" class="icon" alt="icon">
+                                <h5 class="username mt-lg-4 d-inline mx-auto text-right text-justify text-nowrap">
+                                    خروج
+                                </h5>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div
+                        class="div_icon_exit w-50 order-lg-1  mr-3 p-3 bg-white rounded d-flex align-items-center flex-column justify-content-center">
+                        <a href="#" class="text-decoration-none">
+                            <div class="d-flex flex-column">
+                                <img src="./image/reply.png" class="icon" alt="icon">
+                                <h5 class="username mt-lg-4 d-inline mx-auto text-right text-justify text-nowrap">
+                                    بازگشت
+                                </h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- end user image -->
+
+            <!-- edit inputs -->
+            <div
+                class="edit_div col-12 col-lg-6 col-xl-4 order-lg-1 offset-lg-0 p-3 bg-white rounded mt-2 mt-lg-0 d-flex flex-column justify-content-center">
+                <div>
+
+                    <!-- pass -->
+                    <h5 class="inputs_lbl text-right mt-4 " id="username"> رمز عبور جدید </h5>
+                    <div class="input-group mt-1">
+                        <input type="password" class=" d-flex flex-nowrap" placeholder=" رمز عبور خود را وارد نمایید" />
+                    </div>
+                    <!-- end pass -->
+
+                    <!-- Rpass -->
+                    <h5 class="inputs_lbl text-right mt-4 " id="username"> تکرار رمز عبور </h5>
+                    <div class="input-group mt-1">
+                        <input type="password" class="d-flex flex-nowrap" placeholder=" رمز عبور خود را وارد نمایید" />
+                    </div>
+                    <!-- end Rpass -->
+
+
+                    <!-- buttons -->
+                    <div class="row">
+                        <div class="col-6 col-lg-12  d-flex justify-content-end"> <button
+                                class="submitbutton btn btn-block mx-auto w-100" type="submit">
+                                اعمال تغیرات</button></div>
+                        <div class="col-6 d-flex d-lg-none justify-content-end"> <button
+                                class="backbutton btn btn-block mx-auto w-100" type="submit">
+                                بازگشت</button></div>
+                    </div>
+                    <!-- end buttons -->
+                </div>
+            </div>
+            <!-- end edit inputs -->
+
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script>
+        // set profile image
+        $(".user-img2").click(function () {
+            $("#upload").click();
+        });
+
+        $("#upload").change(function () {
+            preview(this);
+        });
+
+        function preview(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    $('.user-img2').attr('src', e.target.result);
+                };
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        //end set profile image
+    </script>
+</body>
+
+</html>

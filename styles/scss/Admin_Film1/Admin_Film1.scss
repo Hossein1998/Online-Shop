@@ -1,0 +1,127 @@
+@import "./../_base.scss";
+@import "./../inputs";
+.HeaderOfPage1_div {
+  background-color: $yellow;
+  color: white;
+  opacity: 0.4;
+  cursor: pointer;
+}
+.HeaderOfPage2_div {
+  background-color: $yellow;
+  color: white;
+  cursor: pointer;
+}
+
+.title_row {
+  height: 50px !important;
+  @media (min-width: 991px) {
+    height: 65px !important;
+    margin-right: 1px;
+  }
+}
+.enterbutton {
+  margin-top: 55px;
+  text-decoration: none;
+  text-align: center;
+  width: 40%;
+  font-size: 26px;
+  height: 68px;
+  color: $white;
+  background-color: $yellow;
+  border: none;
+  align-items: center;
+  border-radius: 5px;
+
+  &.enterbutton:hover,
+  :focus {
+    color: $white;
+    border: none;
+  }
+
+  @media (max-width: 767px) {
+    width: 87%;
+    font-size: 23px;
+    height: 60px;
+    margin-top: 25px;
+  }
+}
+
+.preview2 {
+  width: 100%;
+  height: 180px;
+  border: none;
+  cursor: pointer;
+  @media (min-width: 300px) and (max-width: 400px) {
+    height: 170px;
+  }
+  @media (min-width: 992px) {
+    height: 212px;
+  }
+}
+
+#upload {
+  display: none;
+  top: 1%;
+}
+.backbutton {
+  margin-top: 30px;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  font-size: 21px;
+  height: 58px;
+  color: $white;
+  background-color: $inputs;
+  border: none;
+  border-radius: 4px;
+  align-items: center;
+  @media (max-width: 767px) {
+    font-size: 19px;
+  }
+  @media (max-width: 330px) {
+    font-size: 17px;
+  }
+  &.backbutton:hover,
+  :focus {
+    color: $white;
+    border: none;
+  }
+
+  @media (max-width: 767px) {
+    width: 87%;
+  }
+}
+.enterbutton2 {
+  margin-top: 30px;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  font-size: 21px;
+  height: 58px;
+  color: $white;
+  background-color: $yellow;
+  border: none;
+  border-radius: 4px;
+  align-items: center;
+  padding: 0px;
+  @media (max-width: 767px) {
+    font-size: 19px;
+  }
+  @media (max-width: 330px) {
+    font-size: 17px;
+  }
+  &.submitbutton:hover,
+  :focus {
+    color: $white;
+    border: none;
+  }
+
+  @media (max-width: 767px) {
+    width: 87%;
+  }
+  @media (min-width: 992px) {
+    margin-top: 130px;
+  }
+}

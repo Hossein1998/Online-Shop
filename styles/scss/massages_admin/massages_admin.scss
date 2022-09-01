@@ -1,0 +1,58 @@
+@import "./../_base.scss";
+@import "../inputs";
+
+.font-article-footer-t{
+  font-size: 12;
+
+  @media (max-width: 992px) {
+    font-size: 17px;
+  }
+  @media (max-width: 600px) {
+    font-size: 13px;
+  }
+  @media (max-width: 400px) {
+    font-size: 10px;
+  }
+}
+.main-mobail-pt {
+  @media (min-width: 767px) {
+    padding-top: 55px;
+  }
+  padding-top: 360px;
+}
+
+.font-article-title {
+  font-size: 16;
+  @media (max-width: 992px) {
+    font-size: 15px;
+  }
+  @media (max-width: 600px) {
+    font-size: 14;
+  }
+}
+.font-article-context {
+  font-size: 15;
+  @media (max-width: 992px) {
+    font-size: 14px;
+  }
+  @media (max-width: 600px) {
+    font-size: 13;
+  }
+}
+.fghjkkhv {
+  @media (max-width: 767px) {
+    width: 100%;
+  }
+}
+
+.txt {
+  display: inline;
+  margin-bottom: 1.5rem !important;
+}
+.txt2{
+  color: #acacac;
+}
+
+.div2{
+  border: 2px solid #eeeeee;
+}

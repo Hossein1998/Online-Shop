@@ -1,0 +1,699 @@
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- main css -->
+    <link rel="stylesheet" href="./styles/css/Home.css">
+    <link rel="stylesheet" href="./styles/css/Edit.css">
+    <link rel="stylesheet" href="./styles/css/Factor.css">
+    <link rel="stylesheet" href="./styles/css/PishFactor.css">
+    <title>Operator_PishFactor2</title>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row d-flex flex-wrap p-lg-4">
+            <!-- user image for desktop -->
+            <div class="col-12 col-lg-4 pr-0 pl-0  UserImageNameOther_div d-none d-lg-block  bg-white rounded"
+                style="z-index: 1 !important;">
+                <!-- user image -->
+                <div class="row no-gutters p-2 mt-4 pb-lg-2">
+                    <div class="col-4 UserImage_div text-center  d-flex justify-content-center align-items-start">
+                        <a href="#" class="text-decoration-none">
+                            <p class="EditInformation_txt text-nowrap" style="margin-bottom: 50px !important;"> ویرایش
+                                اطلاعات</p>
+                        </a>
+                    </div>
+                    <div class="col-4 d-flex flex-column justify-content-center align-items-center">
+                        <img src="./image/bill.jpg" alt="user_img" class="user-img rounded-circle"
+                            style="margin-top: 30px;">
+                        <h5 class="UserName_txt text-nowrap">
+                            امیر حسین میرزایی
+                        </h5>
+                        <!-- <p class="PhoneUnderName text-nowrap mt-2"> +98 09123456789</p> -->
+                    </div>
+                    <div class="col-4 pl-3">
+                        <!-- <a href="#" class="text-decoration-none">
+                          <p class="EditInformation_txt text-nowrap" style="margin-bottom: 50px !important;">
+                              تغیر رمز عبور</p>
+                      </a> -->
+                    </div>
+
+                </div>
+                <!-- code -->
+                <div class="row mt-3 d-flex pr-4 pl-4 justify-content-between">
+                    <div class="col-6 d-flex justify-content-start">
+                        <div class="d-flex">
+                            <p class="code text-nowrap" style="direction: rtl;">
+                                کد پرسنلی :
+                            </p>
+                            <p class="code text-nowrap" class="mr-1">
+                                11
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-6 d-flex justify-content-end">
+                        <p class="code text-nowrap"> +98 09123456789</p>
+                    </div>
+                </div>
+                <!-- end code -->
+
+                <!-- end user image -->
+
+                <div class="d-flex  justify-content-between" style="margin-top:41px;">
+                    <div
+                        class="BackExit_div w-50 order-lg-1 p-3 bg-white rounded d-flex align-items-center flex-column justify-content-center">
+                        <a href="#" class="text-decoration-none">
+                            <div class="d-flex flex-column">
+                                <img src="./image/turn-off.png" class="icon" alt="icon">
+                                <h5 class="BackExit_txt mt-lg-4 d-inline mx-auto text-right text-justify text-nowrap">
+                                    خروج
+                                </h5>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div
+                        class="BackExit_div w-50 order-lg-1  mr-3 p-3 bg-white rounded d-flex align-items-center flex-column justify-content-center">
+                        <a href="#" class="text-decoration-none">
+                            <div class="d-flex flex-column">
+                                <img src="./image/reply.png" class="icon" alt="icon">
+                                <h5 class="BackExit_txt mt-lg-4 d-inline mx-auto text-right text-justify text-nowrap">
+                                    بازگشت
+                                </h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- end user image for desktop -->
+
+            <!-- Factors -->
+            <div class="factors_div col-11 col-lg-8 mx-auto pl-lg-3 rounded mt-3 mt-lg-0">
+                <!-- title -->
+                <div class="row header_row justify-content-around rounded mr-lg-2  pl-lg-3 mt-2 mt-lg-0 "  >
+                    <div class="pishfactor_header  col-6 col-lg-12 d-flex justify-content-center rounded"
+                        style="border: 1px #ebebeb solid !important;">
+                        <h4 class="text-center FactorHeader_txt d-inline text-nowrap">پیش فاکتور ها</h4>
+                    </div>
+
+                    <div class="col-6 d-block d-lg-none d-flex pl-0 justify-content-center rounded ">
+
+                        <div class="bg-white w-100 rounded d-flex justify-content-center ">
+                            <a href="#">
+                                <img src="./image/reply.png" class="icon" alt="icon">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- end title -->
+
+                <!-- 1 for mobile -->
+                <div class="row mt-4 pr-0 pr-lg-2 justify-content-around d-lg-none" style="height: 55px; ">
+                    <div class="col-4 pl-2 p-0 d-flex rounded">
+                        <div class="w-100 div_1_mobile d-flex">
+                            <div class="d-flex header_1_mobile justify-content-center align-items-center">
+                                <h5 class="text-center h_txt_header_1_mobile w-100 p-0 text-nowrap text-secondary">کد
+                                    فاکتور</h5>
+                            </div>
+                            <div
+                                class="content_1_mobile bg-white p-0 text-center w-100 d-flex justify-content-center align-items-center rounded">
+                                <h5 class="text-center w-100 code_font  text-nowrap text-muted">22</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 pl-2 p-0 d-flex rounded">
+                        <div class="w-100 div_1_mobile d-flex">
+                            <div class="d-flex header_1_mobile justify-content-center align-items-center">
+                                <h5 class="text-center h_txt_header_1_mobile   w-100 p-0 text-nowrap text-secondary">
+                                    تاریخ</h5>
+                            </div>
+                            <div
+                                class="content_1_mobile bg-white p-0 text-center w-100  d-flex justify-content-center align-items-center rounded">
+                                <h5 class="text-center w-100 code_font text-nowrap text-muted">22</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 p-0 d-flex rounded">
+                        <div class="w-100  d-flex">
+                            <div class="d-flex header_1_mobile justify-content-end align-items-center"
+                                style="cursor: pointer;">
+                                <img src="./image/no.png" alt="icon" style="width: 50px; height: 50px;">
+                            </div>
+                            <div class="content_1_mobile p-0 text-center w-100  d-flex justify-content-end align-items-center rounded"
+                                style="cursor: pointer;">
+                                <img src="./image/yes.png" alt="icon" style="width: 50px; height: 50px;">
+                            </div>
+                        </div>
+                        <!-- <div class="row  ">
+                            <div class="col-4 d-flex  rounded ">
+                                <img src="./image/no.png" alt="icon" style="width: 40px; height: 40px;">
+                            </div>
+                            <div class="col-3 d-flex   mr-4 rounded ">
+                                <img src="./image/yes.png" alt="icon" style="width: 40px; height: 40px;">
+                            </div>
+
+                        </div> -->
+                    </div>
+                </div>
+                <!-- end 1 for mobile -->
+
+                <!-- 1 for desktop -->
+                <div class="row mt-4 pr-0 pr-lg-2 justify-content-around d-none d-lg-flex" style="height: 55px; ">
+                    <div class="col-4 d-flex rounded">
+                        <div class="w-100 d-flex col-12 p-0" style="border: 1px #ebebeb solid !important;">
+                            <div class="w-50">
+                                <h5 class="text-center h_txt_header w-100 text-secondary">کد فاکتور</h5>
+                            </div>
+                            <div class="w-50 bg-white text-center rounded">
+                                <h5 class="text-center h_txt_content w-100 text-muted">22</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 d-flex rounded">
+                        <div class="w-100 d-flex col-12 p-0 " style="border: 1px #ebebeb solid !important;">
+                            <div class="w-50">
+                                <h5 class="text-center h_txt_header text-secondary  w-100">تاریخ</h5>
+                            </div>
+                            <div class="w-50 bg-white text-center rounded">
+                                <h5 class="text-center h_txt_content text-muted w-100">22</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 p-0 rounded">
+                        <div class="row justify-content-around pl-lg-2 pl-xl-0">
+                            <div class="col-4 d-flex justify-content-center text-white rounded"
+                                style="background-color: #da1e1e; cursor: pointer;">
+                                <h5 class="center mx-auto text-center text-nowrap"> رد کردن</h5>
+                            </div>
+                            <div class="col-4 d-flex justify-content-center text-white rounded "
+                                style="background-color: #00af80; cursor:pointer;">
+                                <h5 class="center mx-auto text-center text-nowrap"> تایید کردن</h5>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- end 1 for desktop -->
+
+                <!-- 2 for mobile -->
+                <div class="row mt-4 d-lg-none" style="border: 1px #ebebeb solid !important;">
+                    <div class="col-2 p-0 d-flex flex-column justify-content-stretch align-items-stretch rounded"
+                        style="height: 340px;">
+                        <div class=" d-flex  justify-content-center align-items-center" style="
+                        background-color: #bdbdbd; height: 100% !important; border-radius: 10px;">
+                            <h5 class="text-center" style="transform: rotate(-90deg);color: #616161;">خریدار</h5>
+                        </div>
+                    </div>
+                    <div class="col-10 pr-3 ">
+                        <div class="row pt-3 pb-3 ">
+                            <div
+                                class="col-4 d-flex justify-content-center h_txt_header_1_mobile text-nowrap text-secondary">
+                                کد خریدار
+                            </div>
+                            <div
+                                class="col-4 d-flex justify-content-center h_txt_header_1_mobile text-nowrap text-secondary">
+                                نام
+                                خریدار</div>
+                            <div
+                                class="col-4 d-flex justify-content-center h_txt_header_1_mobile text-nowrap text-secondary">
+                                کد ملی
+                            </div>
+                        </div>
+
+                        <div class="row bg-white" style="height: 65px;">
+                            <div class="col-4  line_height d-flex justify-content-center">
+                                <h6 class="h_txt_content text-center text-muted">1324</h6>
+                            </div>
+                            <div class="col-4 line_height d-flex justify-content-center">
+                                <h6 class="h_txt_content text-center text-muted">محمدی</h6>
+                            </div>
+                            <div class="col-4 line_height d-flex justify-content-center">
+                                <h6 class="h_txt_content text-center text-muted">محمدی</h6>
+                            </div>
+
+
+                        </div>
+                        <div class="row pt-3 pb-3 d-flex justify-content-center">
+                            <div
+                                class="col-6 d-flex justify-content-center h_txt_header_1_mobile text-nowrap text-secondary">
+                                شماره
+                                تماس</div>
+                            <div
+                                class="col-6 d-flex justify-content-center h_txt_header_1_mobile text-nowrap text-secondary">
+                                کد پستی
+                            </div>
+                        </div>
+                        <div class="row bg-white" style="height: 65px;">
+                            <div class="col-6  line_height d-flex justify-content-center">
+                                <h6 class="h_txt_content text-center text-muted">1324</h6>
+                            </div>
+                            <div class="col-6 line_height d-flex justify-content-center">
+                                <h6 class="h_txt_content text-center text-muted">محمدی</h6>
+                            </div>
+                        </div>
+                        <div class="row pt-3 pb-3 d-flex justify-content-center">
+                            <h5 class="text-center h_txt_header_1_mobile text-secondary text-nowrap">آدرس</h5>
+                        </div>
+                        <div class="row adress_row  d-flex justify-content-center bg-white ">
+                            <h6 class="adress_txt text-center text-muted">کرمان</h6>
+                        </div>
+                    </div>
+                </div>
+                <!-- end 2 mobile-->
+
+                <!-- 2 for desktop-->
+                <div class="row mt-4 d-none d-lg-flex mr-lg-2"
+                    style="border: 1px #ebebeb solid !important; margin-left: 1px !important;">
+                    <div class="col-1 d-flex flex-column p-0  justify-content-center align-items-satrt rounded"
+                        style="height: 270px;">
+                        <div class=" h-100 d-flex flex-column justify-content-center align-items-center" style="
+                        background-color: #bdbdbd; width:100%; border-radius: 5px;">
+                            <h5 class="text-center" style="transform: rotate(-90deg);color: #616161;">خریدار</h5>
+                        </div>
+                    </div>
+                    <div class="col-11">
+                        <div class="row" style="height: 70px;">
+                            <div class="col-2 d-flex justify-content-center">
+                                <h6 class="h_txt_header text-center text-secondary text-nowrap">کد خریدار</h6>
+                            </div>
+                            <div class="col-2 d-flex justify-content-center">
+                                <h6 class="h_txt_header text-center text-secondary text-nowrap">نام خریدار</h6>
+                            </div>
+                            <div class="col-2 d-flex justify-content-center">
+                                <h6 class="h_txt_header text-center text-secondary text-nowrap">کد ملی</h6>
+                            </div>
+                            <div class="col-2 d-flex justify-content-center">
+                                <h6 class="h_txt_header text-center text-secondary text-nowrap"> شماره تماس</h6>
+                            </div>
+                            <div class="col-4 d-flex justify-content-center">
+                                <h6 class="h_txt_header text-center text-secondary text-nowrap">کد پستی</h6>
+                            </div>
+                        </div>
+
+                        <div class="row bg-white" style="height: 65px;">
+                            <div class="col-2  line_height d-flex justify-content-center">
+                                <h6 class="h_txt_content text-center text-muted">1324</h6>
+                            </div>
+                            <div class="col-2 line_height d-flex justify-content-center">
+                                <h6 class="h_txt_content text-center text-muted">محمدی</h6>
+                            </div>
+                            <div class="col-2 line_height d-flex justify-content-center">
+                                <h6 class="h_txt_content text-center text-muted">2987415263</h6>
+                            </div>
+                            <div class="col-2 line_height d-flex justify-content-center">
+                                <h6 class="h_txt_content text-center text-muted">09123456789</h6>
+                            </div>
+                            <div class="col-4 line_height d-flex justify-content-center">
+                                <h6 class="h_txt_content text-center text-muted">77722695413</h6>
+                            </div>
+                        </div>
+                        <div class="row d-flex justify-content-center" style="height: 70px;">
+                            <h6 class="text-center h_txt_header text-secondary">آدرس</h6>
+                        </div>
+                        <div class="row d-flex justify-content-center align-items-center bg-white"
+                            style="height: 65px;">
+                            <div class="col-12 d-flex justify-content-center align-items-center">
+                                <h6 class="text-center h_txt_content text-muted">
+                                    کرمان _ خیابان امام جمعه_کوچه شماره 4
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end 2 for desktop- -->
+
+                <!-- 3 for mobile -->
+                <div class="row mt-4 d-lg-none" style="border: 1px #ebebeb solid !important;">
+                    <div class="col-2 p-0 d-flex flex-column justify-content-stretch align-items-stretch rounded"
+                        style="height: 340px;">
+                        <div class=" d-flex  justify-content-center align-items-center" style="
+                        background-color: #bdbdbd; height: 100% !important; border-radius: 10px;">
+                            <h5 class="text-center" style="transform: rotate(-90deg); color: #616161;">فروشنده</h5>
+                        </div>
+                    </div>
+                    <div class="col-10 pr-3 ">
+                        <div class="row pt-3 pb-3 ">
+                            <div
+                                class="col-4 d-flex justify-content-center h_txt_header_1_mobile text-secondary text-nowrap">
+                                کد خریدار
+                            </div>
+                            <div
+                                class="col-4 d-flex justify-content-center h_txt_header_1_mobile text-secondary text-nowrap">
+                                نام
+                                خریدار</div>
+                            <div
+                                class="col-4 d-flex justify-content-center h_txt_header_1_mobile text-secondary text-nowrap">
+                                کد ملی
+                            </div>
+                        </div>
+
+                        <div class="row bg-white" style="height: 65px;">
+                            <div class="col-4  line_height d-flex justify-content-center">
+                                <h6 class="h_txt_content text-center text-muted">1324</h6>
+                            </div>
+                            <div class="col-4 line_height d-flex justify-content-center">
+                                <h6 class="h_txt_content text-center text-muted">محمدی</h6>
+                            </div>
+                            <div class="col-4 line_height d-flex justify-content-center">
+                                <h6 class="h_txt_content text-center text-muted">محمدی</h6>
+                            </div>
+
+
+                        </div>
+                        <div class="row pt-3 pb-3 d-flex justify-content-center">
+                            <div
+                                class="col-6 d-flex justify-content-center h_txt_header_1_mobile text-secondary text-nowrap">
+                                شماره
+                                تماس</div>
+                            <div
+                                class="col-6 d-flex justify-content-center h_txt_header_1_mobile text-secondary text-nowrap">
+                                کد پستی
+                            </div>
+                        </div>
+                        <div class="row bg-white" style="height: 65px;">
+                            <div class="col-6  line_height d-flex justify-content-center">
+                                <h6 class="h_txt_content text-center text-muted">1324</h6>
+                            </div>
+                            <div class="col-6 line_height d-flex justify-content-center">
+                                <h6 class="h_txt_content text-center text-muted">محمدی</h6>
+                            </div>
+                        </div>
+                        <div class="row pt-3 pb-3 d-flex justify-content-center">
+                            <h5 class="text-center h_txt_header_1_mobile text-secondary text-nowrap">آدرس</h5>
+                        </div>
+                        <div class="row adress_row  d-flex justify-content-center bg-white ">
+                            <h6 class="adress_txt text-center text-muted">کرمان</h6>
+                        </div>
+                    </div>
+                </div>
+                <!-- end 3 mobile-->
+
+                <!-- 3 for desktop-->
+                <div class="row mt-4 d-none d-lg-flex mr-lg-2"
+                    style="border: 1px #ebebeb solid !important; margin-left: 1px !important;">
+                    <div class="col-1 d-flex flex-column p-0  justify-content-center align-items-satrt rounded"
+                        style="height: 134px;">
+                        <div class=" d-flex flex-column justify-content-center align-items-center" style="
+                        background-color: #bdbdbd; height: 150px; border-radius: 5px;">
+                            <h5 class="text-center" style="transform: rotate(-90deg); color: #616161;">فروشنده</h5>
+                        </div>
+                    </div>
+                    <div class="col-11">
+                        <div class="row" style="height: 70px;">
+                            <div class="col-2 d-flex justify-content-center">
+                                <h6 class="h_txt_header text-center text-nowrap text-secondary">کد فروشنده</h6>
+                            </div>
+                            <div class="col-2 d-flex justify-content-center">
+                                <h6 class="h_txt_header text-center text-nowrap text-secondary">نام فروشنده</h6>
+                            </div>
+                            <div class="col-2 d-flex justify-content-center">
+                                <h6 class="h_txt_header text-center text-nowrap text-secondary">کد ملی</h6>
+                            </div>
+                            <div class="col-2 d-flex justify-content-center">
+                                <h6 class="h_txt_header text-center text-nowrap text-secondary"> شماره تماس</h6>
+                            </div>
+                            <div class="col-4 d-flex justify-content-center">
+                                <h6 class="h_txt_header text-center text-nowrap text-secondary">قیمت پورسانت </h6>
+                            </div>
+                        </div>
+
+                        <div class="row bg-white" style="height: 65px;">
+                            <div class="col-2  line_height d-flex justify-content-center">
+                                <h6 class="h_txt_content text-center text-muted">1324</h6>
+                            </div>
+                            <div class="col-2 line_height d-flex justify-content-center">
+                                <h6 class="h_txt_content text-center text-muted">محمدی</h6>
+                            </div>
+                            <div class="col-2 line_height d-flex justify-content-center">
+                                <h6 class="h_txt_content text-center text-muted">2987415263</h6>
+                            </div>
+                            <div class="col-2 line_height d-flex justify-content-center">
+                                <h6 class="h_txt_content text-center text-muted">09123456789</h6>
+                            </div>
+                            <div class="col-4 line_height d-flex justify-content-center">
+                                <h6 class="h_txt_content text-center text-muted">77722695413</h6>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- end 3 for desktop- -->
+
+
+
+
+                <!-- table for mobile -->
+                <div class="row mt-4 d-lg-none d-flex justify-content-center">
+                    <div class="col-12 p-0 d-flex justify-content-center"">
+                        <table class=" table-bordered w-100">
+                        <thead>
+                            <tr>
+                                <th scope="col">
+                                    <h6 class="table_header text-center text-secondary">ردیف</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="table_header text-center text text-secondary">کد کالا</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="table_header text-center text-secondary">نام کالا</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="table_header text-center text-secondary">تعداد</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="table_header text-center text-secondary">قیمت (هر واحد)</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="table_header text-center text-secondary">تخفیف (درصد) </h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="table_header text-center text-secondary">پورسانت (درصد) </h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="table_header text-center text-secondary"> قیمت کل </h6>
+                                </th>
+                        </thead>
+                        <tbody>
+                            <tr class="bg-white">
+                                <th scope="row">
+                                    <h6 class="table_content text-center text-muted ">1</h6>
+                                </th>
+                                <td>
+                                    <h6 class="table_content text-center text-muted">01</h6>
+                                </td>
+                                <td>
+                                    <h6 class="table_content text-center text-muted text-nowrap">شلوار جین</h6>
+                                </td>
+                                <td>
+                                    <h6 class="table_content text-center text-muted"> 2</h6>
+                                </td>
+                                <td>
+                                    <h6 class="table_content text-center text-muted"> 331200</h6>
+                                </td>
+
+                                <td>
+                                    <h6 class="table_content text-center text-muted"> 10</h6>
+                                </td>
+                                <td>
+                                    <h6 class="table_content text-center text-muted"> 331200</h6>
+                                </td>
+                                <td>
+                                    <h6 class="table_content text-center text-muted"> 331200</h6>
+                                </td>
+
+                            </tr>
+                            <tr class="bg-white">
+                                <th scope="row">
+                                    <h6 class="table_content text-center text-muted">1</h6>
+                                </th>
+                                <td>
+                                    <h6 class="table_content text-center text-muted">01</h6>
+                                </td>
+                                <td>
+                                    <h6 class="table_content text-center text-muted">شلوار جین</h6>
+                                </td>
+                                <td>
+                                    <h6 class="table_content text-center text-muted"> 2</h6>
+                                </td>
+                                <td>
+                                    <h6 class="table_content text-center text-muted"> 331200</h6>
+                                </td>
+
+                                <td>
+                                    <h6 class="table_content text-center text-muted"> 10</h6>
+                                </td>
+                                <td>
+                                    <h6 class="table_content text-center text-muted"> 331200</h6>
+                                </td>
+                                <td>
+                                    <h6 class="table_content text-center text-muted"> 331200</h6>
+                                </td>
+
+                            </tr>
+                            <tr class="bg-white">
+                                <th class="invisible" scope="row">
+                                    <h6 class="text-center mt-2 text-muted">1</h6>
+                                </th>
+                                <td class="invisible">
+                                    <h6 class="text-center mt-2 text-muted">01</h6>
+                                </td>
+                                <td class="invisible">
+                                    <h6 class="text-center mt-2 text-muted">شلوار جین</h6>
+                                </td>
+                                <td class="invisible">
+                                    <h6 class="text-center mt-2 text-muted"> 2</h6>
+                                </td>
+                                <td class="invisible">
+                                    <h6 class="text-center mt-2 text-muted"> 331200</h6>
+                                </td>
+                                <td class="invisible">
+                                    <h6 class="text-center mt-2 text-muted"> 331200</h6>
+                                </td>
+                                <td class="invisible">
+                                    <h6 class="text-center mt-2 text-muted"> 331200</h6>
+                                </td>
+                                <td style="background-color: #bdbdbd;">
+                                    <h6 class="text-center mt-2 " style="font-size: 15px;"> 662400</h6>
+                                </td>
+                            </tr>
+                        </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!-- end table for mobile -->
+
+                <!-- table for desktop -->
+                <div class="row mt-4 d-none d-lg-flex pr-1 ">
+                    <div class="col-12 d-flex justify-content-center">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th scope="col">
+                                        <h6 class="text-center h_txt_header_table text-secondary">ردیف</h6>
+                                    </th>
+                                    <th scope="col">
+                                        <h6 class="text-center h_txt_header_table text-secondary">کد کالا</h6>
+                                    </th>
+                                    <th scope="col">
+                                        <h6 class="text-center h_txt_header_table text-secondary">نام کالا</h6>
+                                    </th>
+                                    <th scope="col">
+                                        <h6 class="text-center h_txt_header_table text-secondary">تعداد</h6>
+                                    </th>
+                                    <th scope="col">
+                                        <h6 class="text-center h_txt_header_table text-secondary">قیمت (هر واحد)</h6>
+                                    </th>
+                                    <th scope="col">
+                                        <h6 class="text-center h_txt_header_table text-secondary">تخفیف (درصد) </h6>
+                                    </th>
+                                    <th scope="col">
+                                        <h6 class="text-center h_txt_header_table text-secondary">پورسانت (درصد) </h6>
+                                    </th>
+                                    <th scope="col">
+                                        <h6 class="text-center h_txt_header_table text-secondary"> قیمت کل </h6>
+                                    </th>
+                            </thead>
+                            <tbody>
+                                <tr class="bg-white">
+                                    <th scope="row">
+                                        <h6 class="text-center h_txt_content_table text-muted">1</h6>
+                                    </th>
+                                    <td>
+                                        <h6 class="text-center h_txt_content_table text-muted">01</h6>
+                                    </td>
+                                    <td>
+                                        <h6 class="text-center h_txt_content_table text-muted">شلوار جین</h6>
+                                    </td>
+                                    <td>
+                                        <h6 class="text-center h_txt_content_table text-muted"> 2</h6>
+                                    </td>
+                                    <td>
+                                        <h6 class="text-center h_txt_content_table text-muted"> 331200</h6>
+                                    </td>
+
+                                    <td>
+                                        <h6 class="text-center h_txt_content_table text-muted"> 10</h6>
+                                    </td>
+                                    <td>
+                                        <h6 class="text-center h_txt_content_table text-muted"> 331200</h6>
+                                    </td>
+                                    <td>
+                                        <h6 class="text-center h_txt_content_table text-muted"> 331200</h6>
+                                    </td>
+
+                                </tr>
+                                <tr class="bg-white">
+                                    <th scope="row">
+                                        <h6 class="text-center h_txt_content_table text-muted">1</h6>
+                                    </th>
+                                    <td>
+                                        <h6 class="text-center h_txt_content_table text-muted">01</h6>
+                                    </td>
+                                    <td>
+                                        <h6 class="text-center h_txt_content_table text-muted">شلوار جین</h6>
+                                    </td>
+                                    <td>
+                                        <h6 class="text-center h_txt_content_table text-muted"> 2</h6>
+                                    </td>
+                                    <td>
+                                        <h6 class="text-center h_txt_content_table text-muted"> 331200</h6>
+                                    </td>
+
+                                    <td>
+                                        <h6 class="text-center h_txt_content_table text-muted"> 10</h6>
+                                    </td>
+                                    <td>
+                                        <h6 class="text-center h_txt_content_table"> 331200</h6>
+                                    </td>
+                                    <td>
+                                        <h6 class="text-center h_txt_content_table"> 331200</h6>
+                                    </td>
+
+                                </tr>
+                                <tr class="bg-white">
+                                    <th class="invisible" scope="row">
+                                        <h6 class="text-center mt-2">1</h6>
+                                    </th>
+                                    <td class="invisible">
+                                        <h6 class="text-center mt-2">01</h6>
+                                    </td>
+                                    <td class="invisible">
+                                        <h6 class="text-center mt-2">شلوار جین</h6>
+                                    </td>
+                                    <td class="invisible">
+                                        <h6 class="text-center mt-2"> 2</h6>
+                                    </td>
+                                    <td class="invisible">
+                                        <h6 class="text-center mt-2"> 331200</h6>
+                                    </td>
+                                    <td class="invisible">
+                                        <h6 class="text-center mt-2"> 331200</h6>
+                                    </td>
+                                    <td class="invisible">
+                                        <h6 class="text-center mt-2"> 331200</h6>
+                                    </td>
+                                    <td style="background-color: #bdbdbd;">
+                                        <h6 class="text-center mt-2 "> 662400</h6>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!-- end table for desktop -->
+            </div>
+            <!-- edit Factors -->
+        </div>
+    </div>
+
+
+</body>
+
+</html>

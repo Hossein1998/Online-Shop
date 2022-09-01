@@ -1,0 +1,130 @@
+@import "./../base";
+
+.factor_header {
+  background-color: $havij;
+  color: $light_black;
+}
+.parametrs_div {
+  background-color: #f9f9f9;
+  border: #ebebeb 1px solid;
+  color: $light_black;
+}
+.table_header {
+  margin: auto;
+  line-height: 51px;
+  vertical-align: middle;
+  font-size: 13px;
+  color: #616161;
+}
+.table_content {
+  margin: auto;
+  line-height: 51px;
+  vertical-align: middle;
+  font-size: 12px;
+  color: #616161;
+}
+.code_font {
+  font-size: 16px;
+  margin: auto;
+  line-height: 51px;
+  vertical-align: middle;
+  color: #616161;
+}
+.h_txt_main_hearder {
+  margin: auto;
+  line-height: 51px;
+  vertical-align: middle;
+  color: #616161;
+  font-size: 24px;
+}
+.h_txt_header {
+  margin: auto;
+  line-height: 51px;
+  vertical-align: middle;
+  color: #000;
+  font-size: 17px;
+}
+.h_txt_content {
+  @media (min-width: 992px) {
+    font-size: 16px;
+  }
+  font-size: 15px;
+  margin: auto;
+  line-height: 51px;
+  vertical-align: middle;
+  color: #616161;
+}
+.line_height {
+  border-left: 2px solid #f9f9f9;
+  height: 100px;
+  top: -20;
+}
+
+.h_txt_header_table {
+  margin: auto;
+  line-height: 35px;
+  vertical-align: middle;
+  color: #000;
+  font-size: 17px;
+}
+.h_txt_content_table {
+  margin: auto;
+  line-height: 35px;
+  vertical-align: middle;
+  color: #616161;
+  font-size: 16px;
+}
+
+.Buyer_div {
+  border-radius: 10px;
+}
+
+.Buyer_txt {
+  transform: rotate(-90deg);
+  border-radius: 50px;
+}
+.h_txt_header_mobile {
+  margin: auto;
+  vertical-align: middle;
+  color: #000;
+  font-size: 16px;
+}
+.h_txt_header_1_mobile {
+  margin: auto;
+  vertical-align: middle;
+  color: #616161;
+  font-size: 16px;
+  @media (max-width: 400px) {
+    font-size: 14px;
+  }
+}
+.h_txt_content_1_mobile {
+  margin: auto;
+  vertical-align: middle;
+  color: #616161;
+  font-size: 16px;
+  border-left: 2px solid #f9f9f9;
+  height: 40px;
+  top: -20;
+}
+.div_1_mobile {
+  border-radius: 5px;
+  border: 1px #ebebeb solid !important;
+}
+.header_1_mobile {
+  width: 55% !important;
+}
+.content_1_mobile {
+  width: 45% !important;
+}
+.adress_row {
+  padding: 14px;
+  @media (min-width: 300px) and (max-width: 400px) {
+    padding: 19px;
+  }
+  .adress_txt {
+    margin: auto;
+
+    vertical-align: middle;
+  }
+}

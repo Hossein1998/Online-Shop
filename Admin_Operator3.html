@@ -1,0 +1,349 @@
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- main css -->
+    <link rel="stylesheet" href="./styles/css/Admin_Film2.css">
+    <link rel="stylesheet" href="./styles/css/Admin_Operator.css">
+
+    <title>Admin_Operator3</title>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row d-flex flex-wrap p-lg-4">
+            <!-- user image for desktop -->
+            <div class="col-12 col-lg-4 pr-0 pl-0  UserImageNameOther_div d-none d-lg-block  bg-white rounded"
+                style="z-index: 1 !important;">
+                <!-- user image -->
+                <div class="row no-gutters p-2 mt-4 pb-lg-2">
+                    <div class="col-4 UserImage_div text-center  d-flex justify-content-center align-items-start">
+                        <a href="#" class="text-decoration-none">
+                            <p class="EditInformation_txt text-nowrap" style="margin-bottom: 50px !important;"> ویرایش
+                                اطلاعات</p>
+                        </a>
+                    </div>
+                    <div class="col-4 d-flex flex-column justify-content-center align-items-center">
+                        <img src="./image/bill.jpg" alt="user_img" class="user-img rounded-circle"
+                            style="margin-top: 70px;">
+                        <h5 class="UserName_txt text-nowrap">
+                            امیر حسین میرزایی
+                        </h5>
+                        <p class="PhoneUnderName text-nowrap mt-2"> +98 09123456789</p>
+                    </div>
+                    <div class="col-4 pl-3">
+                        <a href="#" class="text-decoration-none">
+                            <p class="EditInformation_txt text-nowrap" style="margin-bottom: 50px !important;">
+                                تغیر رمز عبور</p>
+                        </a>
+                    </div>
+
+                </div>
+                <!-- end user image -->
+
+                <div class="d-flex  justify-content-between" style="margin-top:90px;">
+                    <div
+                        class="BackExit_div w-50 order-lg-1 p-3 bg-white rounded d-flex align-items-center flex-column justify-content-center">
+                        <a href="#" class="text-decoration-none">
+                            <div class="d-flex flex-column">
+                                <img src="./image/turn-off.png" class="icon" alt="icon">
+                                <h5 class="BackExit_txt mt-lg-4 d-inline mx-auto text-right text-justify text-nowrap">
+                                    خروج
+                                </h5>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div
+                        class="BackExit_div w-50 order-lg-1  mr-3 p-3 bg-white rounded d-flex align-items-center flex-column justify-content-center">
+                        <a href="#" class="text-decoration-none">
+                            <div class="d-flex flex-column">
+                                <img src="./image/reply.png" class="icon" alt="icon">
+                                <h5 class="BackExit_txt mt-lg-4 d-inline mx-auto text-right text-justify text-nowrap">
+                                    بازگشت
+                                </h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- end user image for desktop -->
+
+            <!-- content -->
+            <div class="col-11 col-lg-8 mx-auto pl-lg-3 rounded mt-3 mt-lg-0">
+                <!-- title -->
+                <div class="row title_row justify-content-around rounded pl-lg-3 mt-2 mt-lg-0 ">
+                    <div class="col-4 col-lg-6 h-100 p-0 pl-2 pr-lg-3">
+                        <div class="HeaderOfPage2_div h-100 d-flex justify-content-center rounded"
+                            style="border: 1px #ebebeb solid !important;">
+                            <h4 class="text-center HeaderOfPage_txt d-inline text-nowrap"> اپراتور ها </h4>
+                        </div>
+                    </div>
+                    <div class="col-4 col-lg-6 h-100 p-0 pr-2 pr-lg-3">
+                        <div class=" HeaderOfPage1_div h-100 d-flex justify-content-center rounded"
+                            style="border: 1px #ebebeb solid !important;">
+                            <h4 class="text-center HeaderOfPage_txt d-inline text-nowrap">اپراتور جدید</h4>
+                        </div>
+                    </div>
+
+
+                    <div class="col-4 d-block d-lg-none d-flex pl-0 justify-content-center rounded ">
+                        <div class="bg-white w-100 rounded d-flex justify-content-center ">
+                            <a href="#">
+                                <img src="./image/reply.png" class="icon" alt="icon">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- end title -->
+
+
+
+                <!-- search -->
+                <div class="row search_row mt-4 p-0 p-lg-3 mr-lg-1">
+                    <div class="input-group ">
+                        <!-- name -->
+                        <span class="pt-1 pr-3 " style="background-color: #e0e0e0;">
+                            <img src="./image/search.png" alt="icon" class="icon_inputs">
+                        </span>
+                        <input type="text" class="pr-3" placeholder="جست و جو در اپراتور ها " />
+                    </div>
+                </div>
+                <!-- end  search -->
+
+                <!-- cards-->
+                <div class="row mb-3 mt-md-3  pr-lg-3 pl-lg-3">
+                    <div class="col-12 col-md-6 pr-0 pl-0 pr-md-1 pl-md-1  pr-lg-3 mt-3">
+                        <div class="row  BoxShadow no-gutters p-3 bg-white h-100 w-100 ">
+                            <div class="col-5 d-flex justify-content-start">
+                                <img src="./image/immg.png" alt="img" class="card_img">
+                            </div>
+                            <div
+                                class="col-7 pr-2 pr-lg-1 d-flex flex-column text-center justify-content-satart align-items-start">
+                                <div class="d-flex mt-1">
+                                    <h5 class="NameBaz_txt text-nowrap text-secondary"> نام : </h5>
+                                    <h5 class="NameBaz_txt text-secondary text-nowrap mr-2">اپراتور 1</h5>
+                                </div>
+                                <div class="d-flex mt-2">
+                                    <h5 class="NameBaz_txt text-nowrap text-secondary"> کد پرسنلی : </h5>
+                                    <h5 class=" NameBaz_txt text-nowrap text-secondary mr-2">14</h5>
+                                </div>
+                                <a href="#" class="mt-3 text-decoration-none">
+                                    <h6 class="EditDl_txt text-nowrap ">
+                                        جزییات
+                                    </h6>
+                                </a>
+                                <div class="d-flex justify-content-between w-100 mt-3">
+                                    <a href="#" class="text-decoration-none"">
+                                        <h6 class=" EditDl_txt text-nowrap">
+                                        ویرایش
+                                        </h6>
+                                    </a>
+                                    <a href=" #" class="text-decoration-none"">
+                                        <h6 class=" Del_txt text-nowrap">
+                                        حذف
+                                        </h6>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 pr-0 pl-0 pr-md-1 pl-md-1  pr-lg-3 mt-3">
+                        <div class="row  BoxShadow no-gutters p-3 bg-white h-100 w-100 ">
+                            <div class="col-5 d-flex justify-content-start">
+                                <img src="./image/immg.png" alt="img" class="card_img">
+                            </div>
+                            <div
+                                class="col-7 pr-2 pr-lg-1 d-flex flex-column text-center justify-content-satart align-items-start">
+                                <div class="d-flex mt-1">
+                                    <h5 class="NameBaz_txt text-nowrap text-secondary"> نام : </h5>
+                                    <h5 class="NameBaz_txt text-secondary text-nowrap mr-2">اپراتور 1</h5>
+                                </div>
+                                <div class="d-flex mt-2">
+                                    <h5 class="NameBaz_txt text-nowrap text-secondary"> کد پرسنلی : </h5>
+                                    <h5 class=" NameBaz_txt text-nowrap text-secondary mr-2">14</h5>
+                                </div>
+                                <a href="#" class="mt-3 text-decoration-none">
+                                    <h6 class="EditDl_txt text-nowrap ">
+                                        جزییات
+                                    </h6>
+                                </a>
+                                <div class="d-flex justify-content-between w-100 mt-3">
+                                    <a href="#" class="text-decoration-none"">
+                                        <h6 class=" EditDl_txt text-nowrap">
+                                        ویرایش
+                                        </h6>
+                                    </a>
+                                    <a href=" #" class="text-decoration-none"">
+                                        <h6 class=" Del_txt text-nowrap">
+                                        حذف
+                                        </h6>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 pr-0 pl-0 pr-md-1 pl-md-1  pr-lg-3 mt-3">
+                        <div class="row  BoxShadow no-gutters p-3 bg-white h-100 w-100 ">
+                            <div class="col-5 d-flex justify-content-start">
+                                <img src="./image/immg.png" alt="img" class="card_img">
+                            </div>
+                            <div
+                                class="col-7 pr-2 pr-lg-1 d-flex flex-column text-center justify-content-satart align-items-start">
+                                <div class="d-flex mt-1">
+                                    <h5 class="NameBaz_txt text-nowrap text-secondary"> نام : </h5>
+                                    <h5 class="NameBaz_txt text-secondary text-nowrap mr-2">اپراتور 1</h5>
+                                </div>
+                                <div class="d-flex mt-2">
+                                    <h5 class="NameBaz_txt text-nowrap text-secondary"> کد پرسنلی : </h5>
+                                    <h5 class=" NameBaz_txt text-nowrap text-secondary mr-2">14</h5>
+                                </div>
+                                <a href="#" class="mt-3 text-decoration-none">
+                                    <h6 class="EditDl_txt text-nowrap ">
+                                        جزییات
+                                    </h6>
+                                </a>
+                                <div class="d-flex justify-content-between w-100 mt-3">
+                                    <a href="#" class="text-decoration-none"">
+                                        <h6 class=" EditDl_txt text-nowrap">
+                                        ویرایش
+                                        </h6>
+                                    </a>
+                                    <a href=" #" class="text-decoration-none"">
+                                        <h6 class=" Del_txt text-nowrap">
+                                        حذف
+                                        </h6>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 pr-0 pl-0 pr-md-1 pl-md-1  pr-lg-3 mt-3">
+                        <div class="row  BoxShadow no-gutters p-3 bg-white h-100 w-100 ">
+                            <div class="col-5 d-flex justify-content-start">
+                                <img src="./image/immg.png" alt="img" class="card_img">
+                            </div>
+                            <div
+                                class="col-7 pr-2 pr-lg-1 d-flex flex-column text-center justify-content-satart align-items-start">
+                                <div class="d-flex mt-1">
+                                    <h5 class="NameBaz_txt text-nowrap text-secondary"> نام : </h5>
+                                    <h5 class="NameBaz_txt text-secondary text-nowrap mr-2">اپراتور 1</h5>
+                                </div>
+                                <div class="d-flex mt-2">
+                                    <h5 class="NameBaz_txt text-nowrap text-secondary"> کد پرسنلی : </h5>
+                                    <h5 class=" NameBaz_txt text-nowrap text-secondary mr-2">14</h5>
+                                </div>
+                                <a href="#" class="mt-3 text-decoration-none">
+                                    <h6 class="EditDl_txt text-nowrap ">
+                                        جزییات
+                                    </h6>
+                                </a>
+                                <div class="d-flex justify-content-between w-100 mt-3">
+                                    <a href="#" class="text-decoration-none"">
+                                        <h6 class=" EditDl_txt text-nowrap">
+                                        ویرایش
+                                        </h6>
+                                    </a>
+                                    <a href=" #" class="text-decoration-none"">
+                                        <h6 class=" Del_txt text-nowrap">
+                                        حذف
+                                        </h6>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 pr-0 pl-0 pr-md-1 pl-md-1  pr-lg-3 mt-3">
+                        <div class="row  BoxShadow no-gutters p-3 bg-white h-100 w-100 ">
+                            <div class="col-5 d-flex justify-content-start">
+                                <img src="./image/immg.png" alt="img" class="card_img">
+                            </div>
+                            <div
+                                class="col-7 pr-2 pr-lg-1 d-flex flex-column text-center justify-content-satart align-items-start">
+                                <div class="d-flex mt-1">
+                                    <h5 class="NameBaz_txt text-nowrap text-secondary"> نام : </h5>
+                                    <h5 class="NameBaz_txt text-secondary text-nowrap mr-2">اپراتور 1</h5>
+                                </div>
+                                <div class="d-flex mt-2">
+                                    <h5 class="NameBaz_txt text-nowrap text-secondary"> کد پرسنلی : </h5>
+                                    <h5 class=" NameBaz_txt text-nowrap text-secondary mr-2">14</h5>
+                                </div>
+                                <a href="#" class="mt-3 text-decoration-none">
+                                    <h6 class="EditDl_txt text-nowrap ">
+                                        جزییات
+                                    </h6>
+                                </a>
+                                <div class="d-flex justify-content-between w-100 mt-3">
+                                    <a href="#" class="text-decoration-none"">
+                                        <h6 class=" EditDl_txt text-nowrap">
+                                        ویرایش
+                                        </h6>
+                                    </a>
+                                    <a href=" #" class="text-decoration-none"">
+                                        <h6 class=" Del_txt text-nowrap">
+                                        حذف
+                                        </h6>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 pr-0 pl-0 pr-md-1 pl-md-1  pr-lg-3 mt-3">
+                        <div class="row  BoxShadow no-gutters p-3 bg-white h-100 w-100 ">
+                            <div class="col-5 d-flex justify-content-start">
+                                <img src="./image/immg.png" alt="img" class="card_img">
+                            </div>
+                            <div
+                                class="col-7 pr-2 pr-lg-1 d-flex flex-column text-center justify-content-satart align-items-start">
+                                <div class="d-flex mt-1">
+                                    <h5 class="NameBaz_txt text-nowrap text-secondary"> نام : </h5>
+                                    <h5 class="NameBaz_txt text-secondary text-nowrap mr-2">اپراتور 1</h5>
+                                </div>
+                                <div class="d-flex mt-2">
+                                    <h5 class="NameBaz_txt text-nowrap text-secondary"> کد پرسنلی : </h5>
+                                    <h5 class=" NameBaz_txt text-nowrap text-secondary mr-2">14</h5>
+                                </div>
+                                <a href="#" class="mt-3 text-decoration-none">
+                                    <h6 class="EditDl_txt text-nowrap ">
+                                        جزییات
+                                    </h6>
+                                </a>
+                                <div class="d-flex justify-content-between w-100 mt-3">
+                                    <a href="#" class="text-decoration-none"">
+                                        <h6 class=" EditDl_txt text-nowrap">
+                                        ویرایش
+                                        </h6>
+                                    </a>
+                                    <a href=" #" class="text-decoration-none"">
+                                        <h6 class=" Del_txt text-nowrap">
+                                        حذف
+                                        </h6>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- end cards -->
+
+            </div>
+            <!-- edit content -->
+        </div>
+    </div>
+
+</body>
+
+</html>

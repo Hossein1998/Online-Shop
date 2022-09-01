@@ -1,0 +1,195 @@
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- main css -->
+    <link rel="stylesheet" href="./styles/css/Admin_Film1.css">
+    <title>Admin_Film3</title>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row d-flex flex-wrap p-lg-4 ">
+            <!-- user image for desktop -->
+            <div class="col-12 col-lg-4 pr-0 pl-0  UserImageNameOther_div d-none d-lg-block  bg-white rounded"
+                style="z-index: 1 !important;">
+                <!-- user image -->
+                <div class="row no-gutters p-2 mt-4 pb-lg-2">
+                    <div class="col-4 UserImage_div text-center  d-flex justify-content-center align-items-start">
+                        <a href="#" class="text-decoration-none">
+                            <p class="EditInformation_txt text-nowrap" style="margin-bottom: 50px !important;"> ویرایش
+                                اطلاعات</p>
+                        </a>
+                    </div>
+                    <div class="col-4 d-flex flex-column justify-content-center align-items-center">
+                        <img src="./image/bill.jpg" alt="user_img" class="user-img rounded-circle"
+                            style="margin-top: 70px;">
+                        <h5 class="UserName_txt text-nowrap">
+                            امیر حسین میرزایی
+                        </h5>
+                        <p class="PhoneUnderName text-nowrap mt-2"> +98 09123456789</p>
+                    </div>
+                    <div class="col-4 pl-3">
+                        <a href="#" class="text-decoration-none">
+                            <p class="EditInformation_txt text-nowrap" style="margin-bottom: 50px !important;">
+                                تغیر رمز عبور</p>
+                        </a>
+                    </div>
+
+                </div>
+                <!-- end user image -->
+
+                <div class="d-flex  justify-content-between" style="margin-top:90px;">
+                    <div
+                        class="BackExit_div w-50 order-lg-1 p-3 bg-white rounded d-flex align-items-center flex-column justify-content-center">
+                        <a href="#" class="text-decoration-none">
+                            <div class="d-flex flex-column">
+                                <img src="./image/turn-off.png" class="icon" alt="icon">
+                                <h5 class="BackExit_txt mt-lg-4 d-inline mx-auto text-right text-justify text-nowrap">
+                                    خروج
+                                </h5>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div
+                        class="BackExit_div w-50 order-lg-1  mr-3 p-3 bg-white rounded d-flex align-items-center flex-column justify-content-center">
+                        <a href="#" class="text-decoration-none">
+                            <div class="d-flex flex-column">
+                                <img src="./image/reply.png" class="icon" alt="icon">
+                                <h5 class="BackExit_txt mt-lg-4 d-inline mx-auto text-right text-justify text-nowrap">
+                                    بازگشت
+                                </h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- end user image for desktop -->
+
+
+            <!-- content -->
+            <div class="col-11 col-lg-8 mx-auto pl-lg-3 rounded mt-3 mt-lg-0">
+
+                <!-- inputs for mobile -->
+                <div class="row mt-4 BoxShadow bg-white p-3 flex-column   d-lg-none ">
+
+                    <div class="d-flex text-center justify-content-center w-100">
+                        <img src="./image/img3.jpg" class="preview2 w-100" alt="img">
+                        <input id="upload" type="file" accept="image/*" />
+                    </div>
+
+                    <h5 class="inputs_lbl mt-3 text-right">نام فیلم</h5>
+                    <!-- name -->
+                    <div class="input-group pr-2">
+                        <input type="text" placeholder="نام فیلم را وارد نمایید" />
+                    </div>
+                    <!-- end  name -->
+                    <h5 class="inputs_lbl mt-3 text-right">تاریخ آپلود</h5>
+                    <!-- date -->
+                    <div class="input-group pr-2">
+                        <input type="text" placeholder="تاریخ آپلود فیلم را وارد نمایید" />
+                    </div>
+                    <!-- end  date -->
+                    <h5 class="inputs_lbl mt-3 text-right">توضیحات </h5>
+                    <!-- datails -->
+                    <div class="input-group pr-2">
+                        <input type="text" placeholder="توضیحات فیلم را وارد نمایید" />
+                    </div>
+                    <!-- end  datails -->
+
+                    <!-- buttons -->
+                    <div class="row">
+                        <div class="col-6 col-lg-12  d-flex justify-content-end"> <button
+                                class="enterbutton2 btn btn-block mx-auto w-100" type="submit">
+                                اعمال تغیرات</button></div>
+                        <div class="col-6 d-flex d-lg-none justify-content-end"> <button
+                                class="backbutton btn btn-block mx-auto w-100" type="submit">
+                                بازگشت</button></div>
+                    </div>
+                    <!-- end buttons -->
+                </div>
+
+
+                <!-- inputs for Desktop -->
+                <div class="row BoxShadow bg-white d-none p-3 d-lg-flex flex-column ml-1"
+                    style="margin-right: 18px; height: 520px;">
+                    <!-- name and date -->
+                    <div class="row">
+                        <div class="col-6">
+                            <h5 class="inputs_lbl text-right">نام فیلم</h5>
+                            <!-- name -->
+                            <div class="input-group pr-2">
+                                <input type="text" placeholder="نام فیلم را وارد نمایید" />
+                            </div>
+                            <!-- end  name -->
+                            <h5 class="inputs_lbl mt-4 text-right">تاریخ آپلود</h5>
+                            <!-- date -->
+                            <div class="input-group pr-2">
+                                <input type="text" placeholder="تاریخ آپلود فیلم را وارد نمایید" />
+                            </div>
+                            <!-- end  date -->
+                        </div>
+
+                        <div class="col-6 ">
+                            <div class="d-flex text-center justify-content-center w-100">
+                                <img src="./image/img3.jpg" class="preview2 w-100" alt="img">
+                                <input id="upload" type="file" accept="image/*" />
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end name and date -->
+
+                    <div class="row mt-4 pr-3 pl-4">
+                        <h5 class="inputs_lbl text-right">توضیحات </h5>
+                        <!-- details -->
+                        <div class="input-group pr-2">
+                            <input type="text" placeholder="توضیحات فیلم را وارد نمایید" />
+                        </div>
+                        <!-- end  details -->
+                    </div>
+                    <!-- submit button -->
+                    <button class="enterbutton btn btn-block mx-auto " type="submit">
+                        ثبت</button>
+                    <!-- end submit button -->
+                </div>
+                <!-- end inputs for Desktop-->
+            </div>
+        </div>
+        <!-- edit content -->
+    </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script>
+        // set profile image
+        $(".preview2").click(function () {
+            $("#upload").click();
+        });
+
+        $("#upload").change(function () {
+            preview(this);
+        });
+
+        function preview(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    $('.preview2').attr('src', e.target.result);
+                };
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        //end set profile image
+
+
+    </script>
+</body>
+
+</html>

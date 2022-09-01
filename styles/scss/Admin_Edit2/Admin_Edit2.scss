@@ -1,0 +1,15 @@
+@import "./../base";
+.edit_div {
+  box-shadow: 1px 1px 1px 1px $border;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  @media (min-width: 992px) {
+    height: 515px !important;
+  }
+  @media (max-width: 991px) {
+    margin-top: 300px !important;
+  }
+  @media (max-width: 400px) {
+    margin-top: 250px !important;
+  }
+}

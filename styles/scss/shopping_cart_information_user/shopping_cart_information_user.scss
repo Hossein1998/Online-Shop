@@ -1,0 +1,114 @@
+@import "./../_base.scss";
+@import "../inputs";
+@import "Radiobutton";
+
+
+.commodity-download{
+  font-size: 15;
+  @media (max-width: 1121px) {
+    font-size: 13px;
+  }
+  @media (max-width: 600px) {
+    font-size: 11px;
+  }
+  @media (max-width: 400px) {
+    font-size: 9px;
+  }
+
+}
+.fiexd-f{
+    @media (min-width: 992px) {
+        margin-right: 40%;
+      }
+      @media (max-width: 992px) {
+        margin-right:  0px;
+        margin-left:  0px;
+      }
+}
+.width-fixed{
+  // width: 60% !important;
+  @media (min-width:1450px) {
+      width: 45% !important;
+  }
+
+  @media (max-width:1450px) {
+      width: 60% !important;
+  } 
+  
+  @media (max-width:1000px) {
+      width:55% !important;
+  } 
+
+
+  @media (max-width:767px) {
+      width: 100% !important;
+  } 
+}
+
+.w-f{
+    @media (min-width:992px) {
+        width: 50% !important;
+    }
+  
+    @media (max-width:992px) {
+        width: 100% !important;
+    } 
+    
+}
+
+.p-f{
+  padding-top: 80px;
+
+  @media (max-width:767px) {
+    padding-top: 20px;
+  } 
+}
+
+.p-f-l{
+  padding-top: 60px;
+
+  @media (max-width:767px) {
+    padding-top: 5px;
+  } 
+}
+
+
+.hhfhfhfhffh{
+  @media (min-width:1200px) {
+    margin-right: 4rem !important;
+  } 
+  @media (max-width:1200px) {
+    margin-right: 4rem !important;
+  } 
+  @media (max-width:1198px) {
+    margin-right: 0rem !important;
+  } 
+  @media (max-width:1100px) {
+    margin-right: 1rem !important;
+  }
+  @media (max-width:1000px) {
+    margin-right: 2rem !important;
+  } 
+  
+  @media (max-width:857px) {
+    margin-right: 3rem !important;
+  }
+  @media (min-width:616px) and (max-width: 766px) {
+    margin-right: 0rem !important;
+    padding-right: 0 !important;
+  } 
+  
+  @media (max-width: 616px) {
+    margin-right: 1rem !important;
+  }
+  @media (max-width:  500px) {
+    margin-right: 3rem !important;
+  }
+  
+  @media (max-width: 450px) {
+    margin-right: 3rem !important;
+  } 
+  @media (max-width: 420px) {
+    margin-right: 4rem !important;
+  } 
+}
